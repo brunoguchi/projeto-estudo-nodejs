@@ -1,0 +1,441 @@
+{
+    "totalElements": 94,
+    "totalPages": 10,
+    "pageable": {
+        "pageNumber": 0,
+        "pageSize": 10,
+        "sort": [],
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+    },
+    "first": true,
+    "last": false,
+    "size": 10,
+    "content": [
+        {
+            "id": "8673d213-d672-4186-8efe-756cccb2536f",
+            "legal_name": "51.758.848 alidieu liberiste",
+            "trade_name": "Aly Quitandão",
+            "phone": "16982620442",
+            "email": "alyquitandao@gmail.com",
+            "observations": null,
+            "user_company_relationship": null,
+            "associated_networks": [
+                {
+                    "id": "65ddf056-56f8-4c4d-9608-21906e1079be",
+                    "description": "Aly Hortifruti",
+                    "economic_group": {
+                        "id": "9174241a-ff2e-440c-8de3-cafd80dd63f0",
+                        "description": "Aly Hortifruti",
+                        "type": "DISTRIBUIDOR",
+                        "user_id": null,
+                        "company_id": null
+                    },
+                    "master_company": {
+                        "id": "8673d213-d672-4186-8efe-756cccb2536f",
+                        "legal_name": "51.758.848 alidieu liberiste",
+                        "trade_name": "Aly Quitandão",
+                        "observations": null,
+                        "email": "alyquitandao@gmail.com",
+                        "tax_framework_id": null,
+                        "company_master_id": null
+                    }
+                }
+            ],
+            "company_documents": [
+                {
+                    "document_number": "51758848000115",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "RPA normal",
+                "acronym": "RPAN"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Itu",
+                "address_neighborhood": "JARDIM PAULISTA II",
+                "address_zip_code": "13310030",
+                "address_purpose": "Office",
+                "address_street": "Rua milton martins siqueira",
+                "address_number": "167",
+                "address_complement": "Conj 6"
+            }
+        },
+        {
+            "id": "e29f3df3-ef76-4282-a6d0-7437721aeffb",
+            "legal_name": "JULIA MERCADO 40955314879",
+            "trade_name": "JULIA MERCADO 40955314879",
+            "phone": "11968888888",
+            "email": "juliasouza@uorak.com",
+            "observations": "Sem observação",
+            "user_company_relationship": null,
+            "associated_networks": null,
+            "company_documents": [
+                {
+                    "document_number": "38350698000148",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "MICROEMPREENDEDOR INDIVIDUAL",
+                "acronym": "MEI"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Campinas",
+                "address_neighborhood": "Jd Madalena",
+                "address_zip_code": "13474212",
+                "address_purpose": "Office",
+                "address_street": "RUA OLINDO TOMAZZI",
+                "address_number": "27",
+                "address_complement": "SP"
+            }
+        },
+        {
+            "id": "3e9b7a2b-4cca-4540-817c-0fdd04cf3697",
+            "legal_name": "RAYANE SUPERMERCADO LTDA",
+            "trade_name": "SUPERMERCADO REGIONAL",
+            "phone": "119777777777",
+            "email": "rayanesouza@uorak.com",
+            "observations": "Novo usuário",
+            "user_company_relationship": null,
+            "associated_networks": null,
+            "company_documents": [
+                {
+                    "document_number": "40033173000123",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "MICROEMPREENDEDOR INDIVIDUAL",
+                "acronym": "MEI"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "Paraná",
+                "address_city": "Quedas do Iguaçu",
+                "address_neighborhood": "Quedas",
+                "address_zip_code": "55590000",
+                "address_purpose": "Office",
+                "address_street": "RUA ESPERANCA",
+                "address_number": "SN",
+                "address_complement": "QUADRA1 LOTE 1"
+            }
+        },
+        {
+            "id": "a27077f9-f028-41b5-a043-25c4a6cc74b7",
+            "legal_name": "Edmar Nunes Ltda",
+            "trade_name": "BugBusters",
+            "phone": "21999999999",
+            "email": "edmar.nunes.ltda@kepha.com.br",
+            "observations": null,
+            "user_company_relationship": null,
+            "associated_networks": [
+                {
+                    "id": "e4984f09-bc75-46ed-8452-e686217c232c",
+                    "description": "RD - Bugbusters",
+                    "economic_group": {
+                        "id": "a97c070e-a9ed-4c3f-aaab-ca72222d4a4a",
+                        "description": "QA Economic Group",
+                        "type": "VAREJISTA",
+                        "user_id": null,
+                        "company_id": null
+                    },
+                    "master_company": {
+                        "id": "a27077f9-f028-41b5-a043-25c4a6cc74b7",
+                        "legal_name": "Edmar Nunes Ltda",
+                        "trade_name": "BugBusters",
+                        "observations": null,
+                        "email": "edmar.nunes.ltda@kepha.com.br",
+                        "tax_framework_id": null,
+                        "company_master_id": null
+                    }
+                }
+            ],
+            "company_documents": [
+                {
+                    "document_number": "99515270000100",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "MICROEMPREENDEDOR INDIVIDUAL",
+                "acronym": "MEI"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Campinas",
+                "address_neighborhood": "Downtown",
+                "address_zip_code": "13000000",
+                "address_purpose": "Office",
+                "address_street": "Main Street",
+                "address_number": "123",
+                "address_complement": "Apartment 12"
+            }
+        },
+        {
+            "id": "1f121bf3-acab-4cc2-bbd2-0468a651bedd",
+            "legal_name": "Supermercados jung & lenhard ltda",
+            "trade_name": "Supermercados Adoro",
+            "phone": "51999394433",
+            "email": "eduardo.lenhard@gmail.com",
+            "observations": "Teste Charles",
+            "user_company_relationship": null,
+            "associated_networks": [
+                {
+                    "id": "d6a15184-7f7f-4815-b9a8-620724d80ac3",
+                    "description": "Supermercados Adoro",
+                    "economic_group": {
+                        "id": "09515738-8810-4e1b-9be6-1270e8f005b1",
+                        "description": "Supermercados Adoro",
+                        "type": "VAREJISTA",
+                        "user_id": null,
+                        "company_id": null
+                    },
+                    "master_company": {
+                        "id": "1f121bf3-acab-4cc2-bbd2-0468a651bedd",
+                        "legal_name": "Supermercados jung & lenhard ltda",
+                        "trade_name": "Supermercados Adoro",
+                        "observations": "Teste Charles",
+                        "email": "eduardo.lenhard@gmail.com",
+                        "tax_framework_id": null,
+                        "company_master_id": null
+                    }
+                }
+            ],
+            "company_documents": [
+                {
+                    "document_number": "15545847000130",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "RPA normal",
+                "acronym": "RPAN"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "Rio Grande do Sul",
+                "address_city": "Canoas",
+                "address_neighborhood": "Nossa senhora das gracas",
+                "address_zip_code": "92110310",
+                "address_purpose": "Office",
+                "address_street": "Rua tobias barreto",
+                "address_number": "739",
+                "address_complement": "Loja 01"
+            }
+        },
+        {
+            "id": "f3e2e033-b1fa-4350-9204-a591b2bfff67",
+            "legal_name": "Empresa Teste Integração Backoffice",
+            "trade_name": "Empresa Integração Backoffice Ltda",
+            "phone": "11999993165",
+            "email": "nome.empresa@teste.com.br",
+            "observations": "Observações aqui...",
+            "user_company_relationship": null,
+            "associated_networks": null,
+            "company_documents": [
+                {
+                    "document_number": "987654321",
+                    "document_type": "IE"
+                },
+                {
+                    "document_number": "06259883000139",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "CNPJ",
+                "acronym": "CNPJ"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Campinas",
+                "address_neighborhood": "Bairro aqui...",
+                "address_zip_code": "11700555",
+                "address_purpose": "Office",
+                "address_street": "Rua teste 123",
+                "address_number": "456",
+                "address_complement": "Complemento aqui..."
+            }
+        },
+        {
+            "id": "dba654a7-0c99-4b48-99cf-3016bf3546a0",
+            "legal_name": "Google brasil internet ltda.",
+            "trade_name": "Charles 17/01 14:33",
+            "phone": null,
+            "email": null,
+            "observations": null,
+            "user_company_relationship": null,
+            "associated_networks": null,
+            "company_documents": [
+                {
+                    "document_number": "06990590000123",
+                    "document_type": "CNPJ"
+                },
+                {
+                    "document_number": "149848403115",
+                    "document_type": "IE"
+                }
+            ],
+            "tax_framework": {
+                "name": "Normal - regime periódico de apuração",
+                "acronym": "Normal - regime periódico de apuração"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "São Paulo",
+                "address_neighborhood": "Itaim bibi",
+                "address_zip_code": "04538133",
+                "address_purpose": "Office",
+                "address_street": "Avenida brigadeiro faria lima",
+                "address_number": "3477",
+                "address_complement": "Andar 17 a 20 torre sul   andar 2 torre norte       andar 18 a 20 torre norte"
+            }
+        },
+        {
+            "id": "82a6fea5-f3d1-4c64-ae94-a8c962a849b7",
+            "legal_name": "VITOR SUPERMERCADOS LTDA",
+            "trade_name": "VITOR SUPERMERCADOS ",
+            "phone": "87398293829",
+            "email": "vitorsouza@uorak.com",
+            "observations": "Sem observação",
+            "user_company_relationship": null,
+            "associated_networks": null,
+            "company_documents": [
+                {
+                    "document_number": "04988360000102",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "MICROEMPREENDEDOR INDIVIDUAL",
+                "acronym": "MEI"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Campinas",
+                "address_neighborhood": "Jd Madalena",
+                "address_zip_code": "06534030",
+                "address_purpose": "Office",
+                "address_street": "ESTRADA TENENTE MARQUES",
+                "address_number": "3611",
+                "address_complement": "SP"
+            }
+        },
+        {
+            "id": "f9899083-9580-4ff3-8f79-6635dab9945a",
+            "legal_name": "Mercado cacimba ltda",
+            "trade_name": "Mercado cacimba",
+            "phone": null,
+            "email": null,
+            "observations": null,
+            "user_company_relationship": null,
+            "associated_networks": null,
+            "company_documents": [
+                {
+                    "document_number": "122734141111",
+                    "document_type": "IE"
+                },
+                {
+                    "document_number": "34308485000288",
+                    "document_type": "CNPJ"
+                }
+            ],
+            "tax_framework": {
+                "name": "Normal - regime periódico de apuração",
+                "acronym": "Normal - regime periódico de apuração"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Campinas",
+                "address_neighborhood": "Jardim Flamboyant",
+                "address_zip_code": "13091140",
+                "address_purpose": "Office",
+                "address_street": "Avenida jose bonifacio",
+                "address_number": "853",
+                "address_complement": ""
+            }
+        },
+        {
+            "id": "f70d5f70-7390-4069-b56f-bdc31f7124b3",
+            "legal_name": "Makro atacadista s.a",
+            "trade_name": "Makro Atacadista",
+            "phone": null,
+            "email": null,
+            "observations": "Teste",
+            "user_company_relationship": null,
+            "associated_networks": [
+                {
+                    "id": "3c6b589a-870b-4137-8400-a82f6c493780",
+                    "description": "Novo Makro",
+                    "economic_group": {
+                        "id": "f594bf10-ef4e-473f-a6f1-ffdec82bdfb6",
+                        "description": "Novo Makro",
+                        "type": "VAREJISTA",
+                        "user_id": null,
+                        "company_id": null
+                    },
+                    "master_company": {
+                        "id": "f70d5f70-7390-4069-b56f-bdc31f7124b3",
+                        "legal_name": "Makro atacadista s.a",
+                        "trade_name": "Makro Atacadista",
+                        "observations": "Teste",
+                        "email": null,
+                        "tax_framework_id": null,
+                        "company_master_id": null
+                    }
+                }
+            ],
+            "company_documents": [
+                {
+                    "document_number": "47427653011664",
+                    "document_type": "CNPJ"
+                },
+                {
+                    "document_number": "135865383113",
+                    "document_type": "IE"
+                }
+            ],
+            "tax_framework": {
+                "name": "Normal - regime periódico de apuração",
+                "acronym": "Normal - regime periódico de apuração"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Osasco",
+                "address_neighborhood": "Vila Yara",
+                "address_zip_code": "06020012",
+                "address_purpose": "Office",
+                "address_street": "Avenida dos autonomistas",
+                "address_number": "896",
+                "address_complement": "Anexo 900 torre santorini conj 1211 sala 1w"
+            }
+        }
+    ],
+    "number": 0,
+    "sort": [],
+    "numberOfElements": 10,
+    "empty": false
+}
