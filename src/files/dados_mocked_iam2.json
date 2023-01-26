@@ -1,0 +1,78 @@
+{
+    "totalElements": 94,
+    "totalPages": 10,
+    "pageable": {
+        "pageNumber": 0,
+        "pageSize": 10,
+        "sort": [],
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+    },
+    "first": true,
+    "last": false,
+    "size": 10,
+    "content": [
+        {
+            "id": "f70d5f70-7390-4069-b56f-bdc31f7124b3",
+            "legal_name": "Makro atacadista s.a",
+            "trade_name": "Makro Atacadista",
+            "phone": null,
+            "email": null,
+            "observations": "Teste",
+            "user_company_relationship": null,
+            "associated_networks": [
+                {
+                    "id": "3c6b589a-870b-4137-8400-a82f6c493780",
+                    "description": "Novo Makro",
+                    "economic_group": {
+                        "id": "f594bf10-ef4e-473f-a6f1-ffdec82bdfb6",
+                        "description": "Novo Makro",
+                        "type": "VAREJISTA",
+                        "user_id": null,
+                        "company_id": null
+                    },
+                    "master_company": {
+                        "id": "f70d5f70-7390-4069-b56f-bdc31f7124b3",
+                        "legal_name": "Makro atacadista s.a",
+                        "trade_name": "Makro Atacadista",
+                        "observations": "Teste",
+                        "email": null,
+                        "tax_framework_id": null,
+                        "company_master_id": null
+                    }
+                }
+            ],
+            "company_documents": [
+                {
+                    "document_number": "47427653011664",
+                    "document_type": "CNPJ"
+                },
+                {
+                    "document_number": "135865383113",
+                    "document_type": "IE"
+                }
+            ],
+            "tax_framework": {
+                "name": "Normal - regime periódico de apuração",
+                "acronym": "Normal - regime periódico de apuração"
+            },
+            "master_company_id": null,
+            "address": {
+                "address_country": "Brasil",
+                "address_state": "São Paulo",
+                "address_city": "Osasco",
+                "address_neighborhood": "Vila Yara",
+                "address_zip_code": "06020012",
+                "address_purpose": "Office",
+                "address_street": "Avenida dos autonomistas",
+                "address_number": "896",
+                "address_complement": "Anexo 900 torre santorini conj 1211 sala 1w"
+            }
+        }
+    ],
+    "number": 0,
+    "sort": [],
+    "numberOfElements": 10,
+    "empty": false
+}

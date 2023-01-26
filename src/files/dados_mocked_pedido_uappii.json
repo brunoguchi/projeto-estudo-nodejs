@@ -1,0 +1,620 @@
+{
+	"numeroPedido": "123456-1",
+	"idPagamento": 150,
+	"canal": "wapstore",
+	"tipoLogistica": "logistica",
+	"parceiroCanal": "wapstore",
+	"ip": "186.230.24.242",
+	"recomendacao": "Vendedor X",
+	"hash": "a2ae6a7df4c46fd5e8c93aecb7a88a94",
+	"dataEmissao": "2018-04-18 18:28:18",
+	"moeda": "USD",
+	"previsaoEntrega": "2018-04-28",
+	"detalhes": {
+		"marketplace": true,
+		"idPedidoPlataforma": "WS-123",
+		"numeroPedidoBase": "123456",
+		"subpedido": 1,
+		"qtdItens": 2,
+		"qtdSubpedidos": 2,
+		"subpedidos": [
+			"123456-1",
+			"123456-2"
+		],
+		"canal": "wapstore",
+		"armazem": {
+			"id": 47,
+			"codigoInterno": "123123123123123",
+			"nome": "Parceiro Omni",
+			"princiapal": false
+		},
+		"seller": {
+			"id": 47,
+			"nome": "Parceiro Omni",
+			"cnpj": "123123123123123"
+		}
+	},
+	"status": {
+		"id": 3,
+		"idPai": 3,
+		"descricao": "Pago",
+		"descricaoPainel": "",
+		"descricaoSite": "",
+		"dataAlteracao": "2020-08-05 23:16:07",
+		"dataOcorrencia": "2020-08-05 20:16:07"
+	},
+	"intermediador": {
+		"id": 89,
+		"nome": "Fulano Ciclano",
+		"email": "fulano.ciclnano@email.com.br",
+		"cpfCnpj": "12345678912",
+		"rgIe": "",
+		"pessoa": "f",
+		"telefone": "1812345678",
+		"celular": "18999999999",
+		"nascimento": "14/02/1997",
+		"sexo": "m",
+		"idRevendedor": 0,
+		"newsletter": "n",
+		"whatsappPromocional": "n",
+		"whatsappTransacional": "n",
+		"canalVenda": {},
+		"atividadePrincipal": {
+			"cnae": "4753900",
+			"descricao": "Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo"
+		},
+		"atividadesSecundarias": [
+			{
+				"cnae": "4755503",
+				"descricao": "Comércio varejista de artigos de cama, mesa e banho"
+			},
+			{
+				"cnae": "4755502",
+				"descricao": "Comércio varejista de artigos de armarinho"
+			},
+			{
+				"cnae": "4789001",
+				"descricao": "Comércio varejista de suvenires, bijuterias e artesanatos"
+			}
+		]
+	},
+	"cliente": {
+		"id": 282731,
+		"nome": "Cliente de Teste",
+		"email": "cliente@teste.com.br",
+		"cpfCnpj": "11111111000101",
+		"rgIe": "",
+		"pessoa": "j",
+		"telefone": "",
+		"celular": "(24) 99995-2015",
+		"nascimento": "",
+		"sexo": "j",
+		"idRevendedor": 0,
+		"newsletter": "n",
+		"whatsappPromocional": "n",
+		"whatsappTransacional": "n",
+		"site": {
+			"id": 0,
+			"nome": "Principal",
+			"dominio": "localhost",
+			"tipo": "principal"
+		}
+	},
+	"representante": {
+		"id": 547,
+		"codigoInterno": "WAP030521",
+		"nome": "Representante Teste",
+		"email": "representante@email.com"
+	},
+	"entrega": {
+		"cep": "36660000",
+		"destinatario": "Destinatário Teste",
+		"tipo": "casa",
+		"endereco": "Rua Teste",
+		"bairro": "Centro",
+		"cidade": "Teste",
+		"uf": "SP",
+		"numero": "180",
+		"complemento": "LOJA 03",
+		"referencia": ""
+	},
+	"faturamento": {
+		"cep": "36660000",
+		"destinatario": "Destinatário Teste",
+		"tipo": "casa",
+		"endereco": "Rua Teste",
+		"bairro": "Centro",
+		"cidade": "Teste",
+		"uf": "SP",
+		"numero": "180",
+		"complemento": "LOJA 03",
+		"referencia": ""
+	},
+	"destinatarioRetirada": {
+		"idPedido": "1811",
+		"nome": "Fulano Teste",
+		"cpfCnpj": "12345678912",
+		"informacoesAdicionais": [
+			{
+				"titulo": "Campo teste",
+				"valorAtual": "valor teste"
+			}
+		]
+	},
+	"frete": {
+		"id": 4,
+		"nome": "PAC",
+		"transportadora": "Correios",
+		"prazoEntrega": 10,
+		"idFreteCotacao": "651065106516651"
+	},
+	"cupom": {
+		"id": 1,
+		"hash": "cupomteste"
+	},
+	"vendaInterna": {
+		"id": 97,
+		"codigoInterno": "atendenteTeste",
+		"idUsuario": "43",
+		"nomeUsuario": "Atendente Teste",
+		"enviarEmail": true,
+		"observacao": "Teste de observação"
+	},
+	"bloqueios": [
+		{
+			"id": 65,
+			"idBloqueioPedido": 3,
+			"nomeBloqueio": "Bloqueio Tipo de Venda 1",
+			"tipoBloqueio": "tipo_venda",
+			"descricaoTipoBloqueio": "Tipo de Venda",
+			"observacao": "Tudo certo",
+			"idPedido": 27019,
+			"status": "aprovado",
+			"regraAplicacao": {
+				"idTipoVenda": 1,
+				"nomeTipoVenda": "Tipo de Venda 1"
+			},
+			"valorAplicado": {
+				"idTipoVenda": 1,
+				"nomeTipoVenda": "Tipo de Venda 1"
+			},
+			"idUsuarioAlteracao": 1,
+			"nomeUsuarioMovimentacao": "Webart  (teste)",
+			"perfisAlcadaAprovacao": [
+				{
+					"id": 2,
+					"nome": "Admin",
+					"ativo": "s"
+				},
+				{
+					"id": 4,
+					"nome": "Admin 2",
+					"ativo": "s"
+				},
+				{
+					"id": 16,
+					"nome": "Admin 5",
+					"ativo": "s"
+				}
+			],
+			"dataAlteracao": "2023-05-19 11:34:16"
+		},
+		{
+			"id": 66,
+			"idBloqueioPedido": 9,
+			"nomeBloqueio": "Bloqueio Tipo de Venda Teste 1",
+			"tipoBloqueio": "tipo_venda",
+			"descricaoTipoBloqueio": "Tipo de Venda",
+			"idPedido": 27019,
+			"status": "aprovado",
+			"regraAplicacao": {
+				"idTipoVenda": 1,
+				"nomeTipoVenda": "Tipo de Venda 1"
+			},
+			"valorAplicado": {
+				"idTipoVenda": 1,
+				"nomeTipoVenda": "Tipo de Venda 1"
+			},
+			"idUsuarioAlteracao": 1,
+			"nomeUsuarioMovimentacao": "Webart  (teste)",
+			"perfisAlcadaAprovacao": [
+				{
+					"id": 2,
+					"nome": "Admin",
+					"ativo": "s"
+				},
+				{
+					"id": 7,
+					"nome": "Admin 4",
+					"ativo": "s"
+				},
+				{
+					"id": 16,
+					"nome": "Admin 5",
+					"ativo": "s"
+				}
+			],
+			"dataAlteracao": "2023-05-19 11:34:44"
+		}
+	],
+	"tipoVenda": {
+		"id": 1,
+		"nome": "Venda futura"
+	},
+	"promocao": {
+		"ativo": true,
+		"id": 12,
+		"titulo": "Promoção verão 2019",
+		"tipo": "frete_fixo",
+		"valor": 138.0
+	},
+	"pontosGastos": 22.33,
+	"detalhesPontosGastos": [
+		{
+			"quantidade": 22.33,
+			"valorEmMoeda": 0.44,
+			"canalVendaOrigem": {
+				"id": 0,
+				"nome": "wap.store",
+				"dominio": "https://lojascrum.wapstore.com.br/",
+				"tipo": "principal"
+			}
+		}
+	],
+	"pontosGerados": {
+		"pedido": {
+			"quantidade": 45,
+			"valorEmMoeda": 22.5,
+			"status": "pendente"
+		}
+	},
+	"itens": [
+		{
+			"id": 238,
+			"idAtributoSimples": 0,
+			"nome": "Ar Condicionado Split Hi Wall Springer Midea 18000 BTUs Frio 220V - 42MACA18S5",
+			"descricao": "",
+			"quantidade": 1,
+			"valor": 1900.0,
+			"sku": "100212273",
+			"skuSeller": "ARCSPLSPR18000220V",
+			"tipo": "produto",
+			"caracteristicas": {
+				"7": "220V",
+				"8": "7 oitavas"
+			},
+			"devolvido": false,
+			"personalizacoes": [
+				{
+					"id": 13,
+					"nome": "Personalize com seu nome",
+					"valor": "Teste web.art",
+					"quantidade": 1,
+					"precoUnitario": 10,
+					"precoTotal": 10
+				},
+				{
+					"id": 14,
+					"nome": "Adicione uma estampa",
+					"valor": "Logotipo teste",
+					"quantidade": 1,
+					"precoUnitario": 5,
+					"precoTotal": 5
+				}
+			],
+			"cancelamentoSeller": {
+				"usuario": "Seller Teste",
+				"motivo": "Produto sem estoque",
+				"dataCancelamento": "2019-06-19 00:00:00"
+			},
+			"comissao": {
+				"regra": {
+					"percentual": 1,
+					"descricao": "Categoria Ar Condicionado"
+				},
+				"rebate": {
+					"id": 27,
+					"nome": "Rebate FDS 2019",
+					"valorOriginal": 1981.98,
+					"valorRebate": 1900.0,
+					"percentual": 0.5
+				},
+				"comissaoAplicada": {
+					"percentual": 0.5,
+					"valor": 9.5
+				}
+			},
+			"entrega": {
+				"nfeNumero": "000186418",
+				"nfeSerie": "000186418",
+				"nfeChave": "32180401754239001868550010001864181000235711",
+				"rastreio": "CE1231CA2312B3",
+				"frete": {
+					"valor": 69.0,
+					"idFreteCotacao": "651065106516651"
+				}
+			}
+		},
+		{
+			"id": 269,
+			"idAtributoSimples": 0,
+			"nome": "Ar Condicionado Split Hi Wall Springer Midea 30000 BTUs Frio 220V - 42MACA30S5",
+			"descricao": "",
+			"quantidade": 1,
+			"valor": 3386.79,
+			"sku": "100213180",
+			"skuSeller": "ARCSPLSPR30000220V",
+			"devolvido": false,
+			"personalizacoes": [],
+			"cancelamentoSeller": {},
+			"comissao": {
+				"regra": {
+					"percentual": 1,
+					"descricao": "Categoria Ar Condicionado"
+				},
+				"rebate": {},
+				"comissaoAplicada": {
+					"percentual": 1,
+					"valor": 33.87
+				}
+			},
+			"entrega": {
+				"nfeNumero": "000186418",
+				"nfeSerie": "000186418",
+				"nfeChave": "32180401754239001868550010001864181000235711",
+				"rastreio": "CE1231CA2312B3",
+				"frete": {
+					"valor": 69.0,
+					"idFreteCotacao": "651065106516651"
+				}
+			}
+		},
+		{
+			"id": 42,
+			"idAtributoSimples": 0,
+			"nome": "Kit Action Figures DBZ - Majin Boo",
+			"descricao": "",
+			"quantidade": 1,
+			"valor": 713.64,
+			"sku": "lcafdbz-01",
+			"skuSeller": "",
+			"tipo": "lista",
+			"devolvido": false,
+			"itens": [
+				{
+					"id": 296,
+					"idAtributoSimples": 21,
+					"nome": "Majin Boo",
+					"descricao": "Caixa: Com Caixa",
+					"quantidade": 1,
+					"valor": 378.22,
+					"sku": "af-mb-001",
+					"skuSeller": "",
+					"tipo": "produto",
+					"devolvido": false,
+					"cancelamentoSeller": [],
+					"comissao": [],
+					"entrega": {
+						"nfeNumero": "",
+						"nfeSerie": "",
+						"nfeChave": "",
+						"nfeXml": "",
+						"rastreio": "",
+						"frete": {
+							"valor": 0,
+							"idFreteCotacao": "0"
+						}
+					}
+				},
+				{
+					"id": 297,
+					"idAtributoSimples": 21,
+					"nome": "Majin Boo - Fat",
+					"descricao": "Caixa: Com Caixa",
+					"quantidade": 1,
+					"valor": 335.41,
+					"sku": "af-mbf-001",
+					"skuSeller": "",
+					"tipo": "produto",
+					"devolvido": false,
+					"cancelamentoSeller": [],
+					"comissao": [],
+					"entrega": {
+						"nfeNumero": "",
+						"nfeSerie": "",
+						"nfeChave": "",
+						"nfeXml": "",
+						"rastreio": "",
+						"frete": {
+							"valor": 0,
+							"idFreteCotacao": "0"
+						}
+					}
+				}
+			],
+			"cancelamentoSeller": {},
+			"comissao": {},
+			"entrega": {}
+		}
+	],
+	"comissao": {
+		"pedido": [
+			{
+				"tipo": "reservaTecnica",
+				"origem": "cliente",
+				"percentualBase": 10,
+				"valorBase": 71.17,
+				"percentualAplicado": 55.04,
+				"valorAplicado": 391.74
+			}
+		],
+		"subpedido": [
+			{
+				"tipo": "reservaTecnica",
+				"origem": "cliente",
+				"percentualBase": 10,
+				"valorBase": 71.17,
+				"percentualAplicado": 55.04,
+				"valorAplicado": 391.74
+			}
+		]
+	},
+	"pagamento": [
+		{
+			"id": 150,
+			"nome": "MasterCard",
+			"bandeira": "mastercard",
+			"gateway": "mundipagg",
+			"parcelas": 10,
+			"vencimentoBoleto": "",
+			"numeroBanco": "",
+			"valor": 6138.43,
+			"retentativa": 1,
+			"detalhes": {
+				"chavePedido": "a837a781-58ab-4bf3-96ed-0000000000",
+				"referenciaPedido": "123456",
+				"chaveTransacao": "028ec811-4989-4440-b078-0000000000",
+				"referenciaTransacao": 164,
+				"codigoAutorizacao": "101010",
+				"adquirente": "Redecard",
+				"codigoBarras": "",
+				"linhaDigitavel": "",
+				"statusTransacao": "Captured",
+				"tipoPagamento": "creditCard",
+				"dataCapturaPagamento": "2018-04-21T14:30:52"
+			}
+		},
+		{
+			"id": 118,
+			"nome": "Depósito Bancário",
+			"bandeira": "deposito",
+			"gateway": "proprio",
+			"cnpjGateway": "",
+			"parcelas": 1,
+			"vencimentoBoleto": "2023-05-07",
+			"numeroBanco": "87987",
+			"valor": 328.47,
+			"retentativa": 0,
+			"aprovacaoManual": {
+				"status": "pago",
+				"historico": [
+					{
+						"idUsuario": 2,
+						"nomeUsuario": "Fulano Ciclano",
+						"observacao": "Pagamento aprovado",
+						"data": "2023-05-08 16:19:42"
+					}
+				]
+			},
+			"pagamentoPersonalizado": {
+				"id": 1,
+				"nome": "Pagamento Personalizado",
+				"informacoesAdicionais": [
+					{
+						"hash": "informacao-adicional-checkbox",
+						"valor": [
+							"Bradesco",
+							"Itaú"
+						]
+					},
+					{
+						"hash": "informacao-adicional-numero",
+						"valor": [
+							"123"
+						]
+					},
+					{
+						"hash": "informacao-adicional-texto",
+						"valor": [
+							"teste"
+						]
+					},
+					{
+						"hash": "informacao-adicional-select",
+						"valor": [
+							"Opção 4"
+						]
+					}
+				]
+			},
+			"detalhes": {
+				"chavePedido": "",
+				"referenciaPedido": "",
+				"chaveTransacao": "",
+				"referenciaTransacao": "",
+				"identificadorAdicional": "",
+				"codigoAutorizacao": "",
+				"adquirente": "",
+				"codigoBarras": "",
+				"linhaDigitavel": "",
+				"boletoUrl": "",
+				"statusTransacao": "",
+				"tipoPagamento": "",
+				"dataCapturaPagamento": "",
+				"numeroSequencialUnico": "",
+				"numeroSequencialUnicoCaptura": "",
+				"mensagem": "",
+				"mensagemErro": "",
+				"antifraude": {}
+			}
+		}
+	],
+	"valores": {
+		"subtotal": 6138.43,
+		"juros": 0.0,
+		"frete": 138.0,
+		"presente": 0.0,
+		"descontoCupom": 0.0,
+		"descontoBoleto": 0.0,
+		"descontoRevendedor": 0.0,
+		"descontoPromocao": 0.0,
+		"descontoVoucher": 0.0,
+		"descontoAdicional": 0.0,
+		"descontoTotal": 0.0,
+		"comissao": 43.77,
+		"comissaoEstornada": 9.5,
+		"totalComissao": 34.27,
+		"totalPedido": 5424.79,
+		"totalEstornado": 1969.0,
+		"total": 3524.79
+	},
+	"informacoesAdicionais": [
+		{
+			"hash": "como-voce-conheceu-a-loja",
+			"valor": "Youtube"
+		},
+		{
+			"hash": "pra-que-time-voce-torce",
+			"valor": "Flamengo"
+		}
+	],
+	"historico": [
+		{
+			"id": 16,
+			"idStatus": 1,
+			"detalhes": {
+				"1008": {
+					"nome": "Alteração de status",
+					"mensagem": "",
+					"email": "cliente@teste.com.br",
+					"sms": "(23) 1313-1313",
+					"1008": {
+						"alteracoes": {
+							"idPedStatus": "1",
+							"idPedSubStatus": "1"
+						}
+					}
+				}
+			},
+			"tipo": "status",
+			"dataAlteracao": "2020-08-04 16:17:22",
+			"dataOcorrencia": "2020-08-04 13:17:22"
+		}
+	],
+	"site": {
+		"id": 0,
+		"nome": "Principal",
+		"dominio": "localhost",
+		"tipo": "principal"
+	}
+}

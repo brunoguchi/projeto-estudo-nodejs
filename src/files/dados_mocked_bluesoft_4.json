@@ -1,0 +1,35 @@
+{
+    "products": [
+        {
+            "avg_price": 2.99,
+            "brand": {
+                "name": "UNIÃO",
+                "picture": ""
+            },
+            "description": "AÇÚCAR REFINADO UNIÃO 1KG",
+            "gpc": {
+                "code": "10000043",
+                "description": "Açúcar / Substitutos do Açúcar (Não perecível)"
+            },
+            "gross_weight": 1000,
+            "gtin": 7891910000197,
+            "height": 0,
+            "length": 0,
+            "max_price": 2.99,
+            "ncm": {
+                "code": "17019900",
+                "description": "Outros",
+                "full_description": "Açúcares e produtos de confeitaria - Açúcares de cana ou de beterraba e sacarose quimicamente pura, no estado sólido - Outros: - Outros"
+            },
+            "net_weight": 1000,
+            "price": "R$ 2,99",
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7891910000197",
+            "width": 0
+        }
+    ],
+    "current_page": 1,
+    "per_page": 30,
+    "total_pages": 33,
+    "total_count": 973,
+    "next_page": "https://api.cosmos.bluesoft.com.br/products?page=2&query=extrato+de+tomate"
+}

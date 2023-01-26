@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"name": "Attach by Process ID",
+			"processId": "${command:PickProcess}",
+			"request": "attach",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"type": "node"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Executar gerar-inserts",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"program": ".\\src\\services\\read-convert-excel-to-sql\\service.js"
+		}
+	]
+}

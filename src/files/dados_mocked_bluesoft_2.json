@@ -1,0 +1,1196 @@
+{
+    "products": [
+        {
+            "description": "EXTRATO TOMATE",
+            "gtin": 7896292332324,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-01-14T22:00:00.000-02:00",
+            "updated_at": "2025-03-01T13:51:21.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292332324,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021ED481199CE4EEBEB7A.png",
+            "brand": {
+                "name": "LIGHTSWEET",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_lightsweet"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20021000",
+                "description": "Tomates inteiros ou em pedaços",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético. - Tomates inteiros ou em pedaços",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE",
+            "gtin": 7898916030845,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2017-06-15T15:47:54.000-03:00",
+            "updated_at": "2025-01-11T09:58:08.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898916030845,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/D90FCBE0E07FE4D772949BD6121798F6.png",
+            "ncm": {
+                "code": "21069010",
+                "description": "Preparações do tipo utilizado para elaboração de bebidas",
+                "full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Preparações do tipo utilizado para elaboração de bebidas",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE PREDIL.BRASIL",
+            "gtin": 7896292324404,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-24T08:32:09.000-03:00",
+            "updated_at": "2024-12-20T14:10:09.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292324404,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021ED8C64042FF331BE7A.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE LUC",
+            "gtin": 7898372200042,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-24T09:18:11.000-03:00",
+            "updated_at": "2024-08-05T15:13:18.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898372200042,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/5B30ECB5211F4778FD67AEA69CA556BE.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE LUC",
+            "gtin": 7898372200189,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-24T10:14:19.000-03:00",
+            "updated_at": "2024-02-05T10:44:11.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898372200189,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/5B30ECB5211F47788F1806D01FF648D7.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE ETTI",
+            "gtin": 7891300900144,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T15:32:49.000-02:00",
+            "updated_at": "2024-12-20T14:10:13.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7891300900144,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/F1426DB21C3BBB013A0166993D01E868.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE ETTI",
+            "gtin": 7891300900601,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": 350,
+            "gross_weight": 368,
+            "created_at": "2016-01-19T15:32:50.000-02:00",
+            "updated_at": "2023-08-07T16:31:18.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7891300900601,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 17891300900608,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/F1426DB21C3BBB016C52567E63A43D59.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE 3.",
+            "gtin": 7891032011255,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-17T06:36:11.000-03:00",
+            "updated_at": "2024-06-13T19:57:42.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7891032011255,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/D2C8066EDD14DBED05AE57A9B162C789.png",
+            "brand": {
+                "name": "OLE",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_ole"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE GUARI",
+            "gtin": 7897094050065,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2023-03-18T01:08:09.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7897094050065,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A766083AA701C60D2DE695236E4C57E1.png",
+            "ncm": {
+                "code": "20021000",
+                "description": "Tomates inteiros ou em pedaços",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético. - Tomates inteiros ou em pedaços",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE ETTI",
+            "gtin": 7891300900069,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": 350,
+            "gross_weight": 350,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-14T09:27:34.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7891300900069,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 17891300900066,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/F1426DB21C3BBB01FCE343123E007242.png",
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE QUERO",
+            "gtin": 7896102515916,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7896102515916",
+            "width": 59.9948,
+            "height": 2.0066,
+            "length": 119.99,
+            "net_weight": 2698,
+            "gross_weight": 2698,
+            "created_at": "2016-01-19T15:18:03.000-02:00",
+            "updated_at": "2024-12-12T20:00:30.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896102515916,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/7EC5CD91C25B8ACFC42593CD13BA3756.png",
+            "brand": {
+                "name": "QUERO",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_quero"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE QUERO",
+            "gtin": 7896102515213,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7896102515213",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T15:18:03.000-02:00",
+            "updated_at": "2023-01-12T09:13:53.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896102515213,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/7EC5CD91C25B8ACF783465C3BBB0B09A.png",
+            "brand": {
+                "name": "QUERO",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_quero"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE PRED.POKEMON",
+            "gtin": 7896292340329,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-18T12:31:09.000-03:00",
+            "updated_at": "2024-08-14T08:06:55.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292340329,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021ED0FC2FE47D78DCC99.png",
+            "brand": {
+                "name": "LIGHTSWEET",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_lightsweet"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE PEIXE",
+            "gtin": 7893999214243,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-13T03:54:02.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7893999214243,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/773BBD3A2BDFB6DCC6ACA04F6ABB25CB.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE R",
+            "gtin": 7891032014515,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-13T13:45:17.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 27891032014519,
+                    "commercial_unit": {
+                        "type_packaging": "Caixa",
+                        "quantity_packaging": 12,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 7891032014515,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/D2C8066EDD14DBEDCA3D4B0602311F40.png",
+            "brand": {
+                "name": "OLE",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_ole"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE FUGINI",
+            "gtin": 7897517206376,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7897517206376",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-01-25T10:46:34.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7897517206376,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C70C26E1566A340CC2E6131CFD875D38.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE FUGINI",
+            "gtin": 7897517206215,
+            "width": 1,
+            "height": 1,
+            "length": 1,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-14T02:48:18.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 27897517206219,
+                    "commercial_unit": {
+                        "type_packaging": "Caixa",
+                        "quantity_packaging": 24,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 7897517206215,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C70C26E1566A340CCE6BAC62505D20E7.png",
+            "ncm": {
+                "code": "21032090",
+                "description": "Outros",
+                "full_description": "Preparações alimentícias diversas - Preparações para molhos e molhos preparados; condimentos e temperos compostos; farinha de mostarda e mostarda preparada - \"Ketchup\" e outros molhos de tomate - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE QUERO",
+            "gtin": 7896102515817,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-24T09:44:15.000-03:00",
+            "updated_at": "2024-08-14T03:50:49.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896102515817,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/7EC5CD91C25B8ACFA96F2816B78580BC.png",
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE PEIXE",
+            "gtin": 7893999210481,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2023-03-18T01:07:02.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7893999210481,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/773BBD3A2BDFB6DCD0FABF4A5FEF5C43.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE TOMATIN",
+            "gtin": 7896387016146,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-13T06:14:24.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896387016146,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A2A024049170E6F7EDE39DFC19EE4C7F.png",
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE JUREMA",
+            "gtin": 7896387016931,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-13T19:43:39.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896387016931,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 17896387016938,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A2A024049170E6F762AE4F9D95854340.png",
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE QUERO",
+            "gtin": 7896102515619,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7896102515619",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T15:25:50.000-02:00",
+            "updated_at": "2024-05-02T16:15:13.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896102515619,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/7EC5CD91C25B8ACF9CAAB4487961D147.png",
+            "brand": {
+                "name": "QUERO",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_quero"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE PLEDILECTA",
+            "gtin": 7896292314405,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T13:44:11.000-02:00",
+            "updated_at": "2024-06-13T13:15:20.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292314405,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021EDF23CF5474A26D039.png",
+            "brand": {
+                "name": "LIGHTSWEET",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_lightsweet"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE TRADIC",
+            "gtin": 7896235800262,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2022-03-14T07:12:10.000-03:00",
+            "updated_at": "2025-02-11T11:05:50.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896235800262,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/64339A95CE7BA0F1E9FF14193E3B5345.png",
+            "ncm": {
+                "code": "20021000",
+                "description": "Tomates inteiros ou em pedaços",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético. - Tomates inteiros ou em pedaços",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE DECORADO",
+            "gtin": 7896292300323,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-14T04:19:49.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292300323,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021ED92C544D870E62EAC.png",
+            "brand": {
+                "name": "LIGHTSWEET",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_lightsweet"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE PREDI",
+            "gtin": 7896292360389,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2021-09-26T05:03:50.000-03:00",
+            "updated_at": "2024-08-14T09:29:49.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292360389,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021ED517007C19EC0D94E.png",
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "INSUMOS EXTRATO DE TOMATE",
+            "gtin": 7890000235594,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2023-06-14T15:34:37.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7890000235594,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/BAC71C20E50707AFBF11658610B3B8B9.png",
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE COLONIAL",
+            "gtin": 7896062400048,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7896062400048",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-17T06:51:48.000-03:00",
+            "updated_at": "2025-02-06T13:47:18.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896062400048,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 17896062400489,
+                    "commercial_unit": {
+                        "type_packaging": "Caixa",
+                        "quantity_packaging": 36,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/F28CCDF82AD2085D0803EDBAD94F439C.png",
+            "brand": {
+                "name": "COLONIAL CONSERVAS",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO TOMATE QUERO",
+            "gtin": 7896102502169,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7896102502169",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2023-08-05T17:43:01.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 57896102502164,
+                    "commercial_unit": {
+                        "type_packaging": "Caixa",
+                        "quantity_packaging": 24,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 7896102502169,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/7EC5CD91C25B8ACFEE0EBF948EF5D524.png",
+            "brand": {
+                "name": "QUERO",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_quero"
+            },
+            "ncm": {
+                "code": "20029090",
+                "description": "Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "EXTRATO DE TOMATE QUERO",
+            "gtin": 7896102502053,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-08-14T12:51:30.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896102502053,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/7EC5CD91C25B8ACF8A3A74AF2F53ADC9.png",
+            "ncm": {
+                "code": "20029000",
+                "description": "- Outros",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético -  Outros - - Outros",
+                "ex": null
+            }
+        }
+    ],
+    "current_page": 1,
+    "per_page": 30,
+    "total_pages": 33,
+    "total_count": 973,
+    "next_page": "https://api.cosmos.bluesoft.com.br/products?page=2&query=extrato+de+tomate"
+}

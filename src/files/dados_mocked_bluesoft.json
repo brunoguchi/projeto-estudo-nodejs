@@ -1,0 +1,1172 @@
+{
+    "products": [
+        {
+            "description": "COCA COLA",
+            "gtin": 7894900019254,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900019254",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T16:28:43.000-02:00",
+            "updated_at": "2025-03-04T07:47:26.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900019254,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8798E3CCBFB819B22.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA COLA",
+            "gtin": 7894900019155,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900019155",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2025-02-19T23:19:03.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900019155,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE859424341B8E75DEF.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFR COCA-COLA 2,5LT+COCA -COLA ZERO 2,5",
+            "gtin": 7894900709391,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2025-02-02T09:36:00.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900709391,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C272100F7205E377BE8426767D62A323.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COPO DA COCA-COLA",
+            "gtin": 7896980405057,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-10-14T13:39:50.000-03:00",
+            "updated_at": "2024-07-19T17:06:25.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896980405057,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/4D94569A670D7E352AB9582DA835FF66.png",
+            "ncm": {
+                "code": "39241000",
+                "description": "Serviços de mesa e outros utensílios de mesa ou de cozinha",
+                "full_description": "Plásticos e suas obras - Serviços de mesa, artigos de cozinha, outros artigos de uso doméstico e artigos de higiene ou de toucador, de plástico. - Serviços de mesa e outros utensílios de mesa ou de cozinha",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA",
+            "gtin": 7894900010220,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:43.000-02:00",
+            "updated_at": "2025-02-25T04:36:38.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE81EAF43FDA35A829D.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA COLA PET",
+            "gtin": 7896371019016,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7896371019016",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-07-16T15:16:18.000-03:00",
+            "updated_at": "2024-11-05T22:41:37.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896371019016,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/F0D4E8A251296831FD87CE8987632ACB.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA COLA 2L",
+            "gtin": 7894900019926,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2018-06-24T06:43:40.000-03:00",
+            "updated_at": "2025-02-28T00:03:58.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900019926,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE854D3DDE058597BC4.png",
+            "brand": {
+                "name": "COCA-COLA ORIGINAL",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIG COCA COLA",
+            "gtin": 7894900012248,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2023-08-22T14:30:57.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900012248,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8DE0488EA4A14A89A.png",
+            "brand": {
+                "name": "COCA-COLA ORIGINAL",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA COLA 600ML",
+            "gtin": 7894900019902,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2018-06-24T06:43:40.000-03:00",
+            "updated_at": "2025-02-05T16:02:16.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900019902,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8AC0CA2B6854AF423.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA",
+            "gtin": 7894900018370,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900018370",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:44.000-02:00",
+            "updated_at": "2024-12-21T23:33:11.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900018370,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8974FE110E49B2E63.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA",
+            "gtin": 7894900013306,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900013306",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:44.000-02:00",
+            "updated_at": "2025-01-12T12:16:55.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900013306,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE83A0DFDD6437AB14C.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIG COCA COLA",
+            "gtin": 7894900019919,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900019919",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2025-03-04T00:03:46.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900011685,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 6,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                },
+                {
+                    "gtin": 7894900019919,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE83F6244AB2AC82041.png",
+            "brand": {
+                "name": "COCA-COLA ORIGINAL",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "gpc": {
+                "code": "50202300",
+                "description": "Bebidas Não Alcoólicas - Prontas para Beber"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA",
+            "gtin": 7894900010046,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900010046",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:43.000-02:00",
+            "updated_at": "2025-02-25T10:17:23.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900010046,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8A189E0614621474C.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            },
+            "category": {
+                "id": 205,
+                "description": "Refrigerantes",
+                "parent_id": 65
+            }
+        },
+        {
+            "description": "ESMALTE CREMOSO VERMELHO COCA-COLA RISQUÉ COCA-COLA BLISTER 8ML",
+            "gtin": 7891350035094,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7891350035094",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2019-02-18T10:02:35.000-03:00",
+            "updated_at": "2025-01-20T08:29:47.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7891350035094,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 17891350035091,
+                    "commercial_unit": {
+                        "type_packaging": "Caixa",
+                        "quantity_packaging": 6,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/19050D1BA0DCCEE7601AF777F9850B8C.png",
+            "brand": {
+                "name": "RISQUÉ",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "ncm": {
+                "code": "33043000",
+                "description": "Preparações para manicuros e pedicuros",
+                "full_description": "Óleos essenciais e resinóides; produtos de perfumaria ou de toucador preparados e preparações cosméticas - Produtos de beleza ou de maquiagem preparados e preparações para conservação ou cuidados da pele (exceto medicamentos), incluindo as preparações antissolares e os bronzeadores; preparações para manicuros e pedicuros. - Preparações para manicuros e pedicuros",
+                "ex": null
+            }
+        },
+        {
+            "description": "LOCKS COCA COLA UND",
+            "gtin": 7896843526028,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2022-02-09T06:47:46.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896843526028,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/DCC6DA4D8AB214636B8D6976715A7EF9.png",
+            "ncm": {
+                "code": "95030099",
+                "description": "Outros",
+                "full_description": "Brinquedos, jogos, artigos para divertimento ou para esporte; suas partes e acessórios - Triciclos, patinetes, carros de pedais e outros brinquedos semelhantes de rodas; carrinhos para bonecos; bonecos; outros brinquedos; modelos reduzidos e modelos semelhantes para divertimento, mesmo animados; quebracabeças (“puzzles”) de qualquer tipo - Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "CALDERETA COCA COLA UNIDADE",
+            "gtin": 7891017014981,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-01-22T15:01:25.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7891017014981,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/5EFC8614BB5BD9A67E30BBE87C23D2E3.png",
+            "ncm": {
+                "code": "70131000",
+                "description": "Objetos de vitrocerâmica",
+                "full_description": "Vidro e suas obras - Objetos de vidro para serviço de mesa, cozinha, toucador, escritório, ornamentação de interiores ou usos semelhantes (exceto os das posições 70.10 ou 70.18). - Objetos de vitrocerâmica",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA-COLA GARRAFA PET",
+            "gtin": 7894900011654,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:44.000-02:00",
+            "updated_at": "2025-03-04T00:03:42.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8D8E1F85B5E34E10C.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA-COLA GARRAFA PET",
+            "gtin": 7894900018400,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": 1,
+            "gross_weight": 1,
+            "created_at": "2016-01-19T14:30:44.000-02:00",
+            "updated_at": "2025-03-04T07:48:01.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900018400,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8D8DD747AFFCCF1EF.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA ZERO",
+            "gtin": 7894900701210,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T15:04:05.000-02:00",
+            "updated_at": "2025-03-04T00:04:13.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C272100F7205E3774C7121FD1B3554E3.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIG COCA COLA 1,5LT",
+            "gtin": 7894900011807,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2025-02-28T00:18:01.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8D2BEAF08C3C21EA4.png",
+            "brand": {
+                "name": "COCA-COLA ORIGINAL",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "AGUA MINERAL COCA COLA",
+            "gtin": 7898917308493,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2017-06-15T15:59:37.000-03:00",
+            "updated_at": "2025-01-19T21:56:22.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898917308493,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/68E223FD4485793875F8677409B8CBD9.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            },
+            "cest": {
+                "id": 2175,
+                "code": "1711000",
+                "description": "Refrescos e outras bebidas prontas para beber à base de chá e mate",
+                "parent_id": 1671
+            }
+        },
+        {
+            "description": "BRINQUEDO.IOIO COCA COLA OLIMPIADAS",
+            "gtin": 7898355980534,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-09-23T22:06:39.000-03:00",
+            "updated_at": "2024-08-14T13:11:44.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898355980534,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/0C31CA9F0FF92569EB2220CF81D0CDC0.png",
+            "ncm": {
+                "code": "95030099",
+                "description": "Outros",
+                "full_description": "Brinquedos, jogos, artigos para divertimento ou para esporte; suas partes e acessórios - Triciclos, patinetes, carros de pedais e outros brinquedos semelhantes de rodas; carrinhos para bonecos; bonecos; outros brinquedos; modelos reduzidos e modelos semelhantes para divertimento, mesmo animados; quebracabeças (“puzzles”) de qualquer tipo - Outros - Outros",
+                "ex": null
+            }
+        },
+        {
+            "description": "MINI GARRAFINHAS COCA COLA",
+            "gtin": 7898355980664,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-01-14T22:00:00.000-02:00",
+            "updated_at": "2024-08-14T17:01:54.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898355980664,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/0C31CA9F0FF92569D9037C9DDB38E489.png",
+            "ncm": {
+                "code": "39233090",
+                "description": "Artigos de transporte ou de embalagem, de plástico; rolhas, tampas, cápsulas e outros dispositivos para fechar recipientes, de plástico.",
+                "full_description": "Plásticos e suas obras - Outraschapas,folhas,películas,tiraselâminas,deplásticonãoalveolar,não reforçadas nem estratificadas, sem suporte, nem associadas de forma semelhante a outras matérias. - Artigos de transporte ou de embalagem, de plástico; rolhas, tampas, cápsulas e outros dispositivos para fechar recipientes, de plástico.",
+                "ex": null
+            }
+        },
+        {
+            "description": "ZZSACOLA COCA COLA 2",
+            "gtin": 7894900018721,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-04-05T21:59:50.000-03:00",
+            "updated_at": "2024-08-14T12:53:54.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900018721,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8A2E7E48FF0A88B1B.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA COLA LIGHT C06",
+            "gtin": 7894900130041,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900130041",
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2025-01-20T08:29:33.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900130041,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C498CE582209CD5A9731737E7FFEFE2D.png",
+            "brand": {
+                "name": "COCA-COLA LIGHT",
+                "picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "MINIENGRADADOS COCA COLA SHARE",
+            "gtin": 7898355980787,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2018-02-16T16:34:38.000-02:00",
+            "updated_at": "2023-04-14T16:56:40.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7898355980787,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/0C31CA9F0FF92569A53AB4A4EBA64C0A.png",
+            "ncm": {
+                "code": "99999900",
+                "description": "Qualquer Outra Mercadoria Sem Cobertura Cambial",
+                "full_description": null,
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA 2LT",
+            "gtin": 7894900011562,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:42.000-02:00",
+            "updated_at": "2024-05-23T19:10:06.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8CE9AE4D19DBECA1C.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA COLA LATA",
+            "gtin": 7894900709841,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900709841",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-07-16T11:31:50.000-03:00",
+            "updated_at": "2025-02-28T00:09:56.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900709841,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                },
+                {
+                    "gtin": 7894900700220,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 6,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C272100F7205E377A1AF63A9BB6740D2.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIGERANTE COCA-COLA 2LT",
+            "gtin": 7894900018349,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900018349",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T14:30:42.000-02:00",
+            "updated_at": "2024-09-15T21:28:41.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900018349,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE89F218D7C864D4DA0.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        },
+        {
+            "description": "REFRIG COCA COLA LIGHT",
+            "gtin": 7894900103564,
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2014-04-24T11:07:34.000-03:00",
+            "updated_at": "2024-10-27T00:09:30.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900101928,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": 0,
+                        "layer": 0
+                    }
+                },
+                {
+                    "gtin": 7894900103564,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/C498CE582209CD5A0E1AD68160F45FC1.png",
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            },
+            "category": {
+                "id": 205,
+                "description": "Refrigerantes",
+                "parent_id": 65
+            }
+        }
+    ],
+    "current_page": 1,
+    "per_page": 30,
+    "total_pages": 362,
+    "total_count": 10855,
+    "next_page": "https://api.cosmos.bluesoft.com.br/products?page=2&query=coca-cola"
+}
