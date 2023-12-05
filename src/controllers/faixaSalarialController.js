@@ -90,8 +90,34 @@ const obterPorId = (request, response) => {
 // ServicoPedagogico = 3,
 // EscolaAberta = 4
 
+const obterHistorico =
+    (request, response) => {
+        const { faixaId } = request.params;
+
+        var payload = [{
+            dataInicialDoPeriodoDeVigencia: new Date('2023-01-01 00:00:00'),
+            dataFinalDoPeriodoDeVigencia: null,
+            valorDaHoraAula: 0.01,
+            nomeUsuario: "Nome do Usuário",
+            dataHoraOperacao: new Date('2023-01-01 00:00:00'),
+            operacao: 1
+        },
+        {
+            dataInicialDoPeriodoDeVigencia: new Date('2023-01-01 00:00:00'),
+            dataFinalDoPeriodoDeVigencia: new Date('2023-12-31 00:00:00'),
+            valorDaHoraAula: 1238.65,
+            nomeUsuario: "Nome do Usuário",
+            dataHoraOperacao: new Date('2023-10-23 15:18:31'),
+            operacao: 2
+        }
+        ];
+
+        return response.status(200).json(payload);
+    };
+
 module.exports =
 {
     atualizarFaixas,
-    obterPorId
+    obterPorId,
+    obterHistorico
 };

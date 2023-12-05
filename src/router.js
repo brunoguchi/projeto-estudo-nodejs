@@ -2,6 +2,8 @@ const express = require('express');
 const testeController = require('./controllers/testeController');
 const nivelFaixaSalarialController = require('./controllers/nivelFaixaSalarialController')
 const faixaSalarialController = require('./controllers/faixaSalarialController')
+const profissionalDiaLetivoController = require('./controllers/profissionalDiaLetivoController')
+const precificacaoDaTurmaController = require('./controllers/precificacaoDaTurmaController')
 
 const router = express.Router();
 
@@ -19,5 +21,11 @@ router.get('/api/NivelDeFaixaSalarial/:nivelFaixaId/ObterFaixas', nivelFaixaSala
 
 router.post('/api/FaixaSalarial/AtualizarFaixas', faixaSalarialController.atualizarFaixas);
 router.get('/api/FaixaSalarial/:faixaId', faixaSalarialController.obterPorId);
+router.get('/api/FaixaSalarial/ObterRegistrosHistorico/:faixaId', faixaSalarialController.obterHistorico);
+
+router.get('/api/DiaLetivo/ObterProfissionaisSubstituidos/:colaboradorId/:turmaUnidadeCurricularDoPlanoDoCursoId',
+    profissionalDiaLetivoController.obterProfissionaisSubstituidos);
+
+router.post('/api/PrecificacaoDaTurma/CriarPrecificacoesDasMatriculas', precificacaoDaTurmaController.criarPrecificacoesDasMatriculas);
 
 module.exports = router;
