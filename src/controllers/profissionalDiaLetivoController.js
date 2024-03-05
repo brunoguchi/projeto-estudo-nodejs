@@ -51,7 +51,7 @@ const obterProfissionaisSubstituidos =
                     estadoDoDiaLetivo: 1,
                     possuiRegistroNoDiario: false
                 }]
-            },{
+            }, {
                 id: '9e76a179-c0ec-4889-9114-deaa8108bc85',
                 tipoDeDocumentoId: 321,
                 possuiJustificativa: false,
@@ -135,7 +135,14 @@ const obterProfissionaisSubstituidos =
         return response.status(200).json(payload);
     };
 
+const salvar =
+    (request, response) => {
+        //return response.status(400).json(['erro do salvarAlocacao']);
+        return response.status(200).json();
+    };
+
 module.exports =
 {
-    obterProfissionaisSubstituidos
+    obterProfissionaisSubstituidos,
+    salvar
 };
