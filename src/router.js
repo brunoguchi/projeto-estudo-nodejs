@@ -6,6 +6,11 @@ const profissionalDiaLetivoController = require('./controllers/profissionalDiaLe
 const precificacaoDaTurmaController = require('./controllers/precificacaoDaTurmaController')
 const profissionalDeEducacaoController = require('./controllers/profissionalDeEducacaoController')
 const alocacaoContratoDoColaboradorFaixaSalarialController = require('./controllers/alocacaoContratoDoColaboradorFaixaSalarialController')
+const turmaController = require('./controllers/turmaController')
+const bnwebController = require('./controllers/bnweb')
+const gestaoAlunoController = require('./controllers/gestaoDoAlunoController')
+const estadoDaMatriculaRAController = require('./controllers/estadoDaMatriculaRA')
+const alunosDaTurmaController = require('./controllers/alunosDaTurma')
 
 const router = express.Router();
 
@@ -46,5 +51,30 @@ router.post('/api/ProfissionalDeEducacao/emitir-distrato', profissionalDeEducaca
 
 // AlocacaoContratoDoColaboradorFaixaSalarial
 router.put('/api/AlocacaoContratoDoColaboradorFaixaSalarial/AlterarFaixaSalarialProfissionalDiaLetivo', alocacaoContratoDoColaboradorFaixaSalarialController.alterarFaixaSalarialProfissionalDiaLetivo);
+
+// Turma
+router.post('/api/Turma', turmaController.salvar);
+
+// Biblioteca BNWeb
+router.get('/api/PortalAluno/biblioteca-digital/bnweb/acesso', bnwebController.obterTipoAcessoBnWeb);
+router.get('/api/PortalAluno/biblioteca-digital/bnweb/cadastros', bnwebController.listarContas);
+router.get('/api/bnweb/resumo-emprestimos', bnwebController.resumoEmprestimos);
+router.post('/api/bnweb/alterar-permissao-emprestimos', bnwebController.alterarPermissaoEmprestimo);
+router.get('/api/bnweb/detalhes-acesso', bnwebController.listarRegionais);
+router.post('/api/bnweb/habilitar-conta', bnwebController.habilitarConta);
+
+// Gestão do Aluno
+router.post('/api/GestaoDoAluno/AlterarEstadoPorUC', gestaoAlunoController.alterarEstadoPorUC);
+
+// Estado da Matricula RA
+router.post('/api/EstadoDaMatriculaRA/AlterarEstadoDaMatriculaRA', estadoDaMatriculaRAController.alterarEstadoDaMatriculaRA);
+router.post('/api/EstadoDaMatriculaRA/PermitirAlterarParaDesistente', estadoDaMatriculaRAController.permitirAlterarParaDesistente);
+router.post('/api/EstadoDaMatriculaRA/PermitirAlterarParaEvadido', estadoDaMatriculaRAController.permitirAlterarParaEvadido);
+router.post('/api/EstadoDaMatriculaRA/AlterarEstadoDaMatriculaRAParaTransferido', estadoDaMatriculaRAController.alterarEstadoDaMatriculaRAParaTransferido);
+router.post('/api/EstadoDaMatriculaRA/AlterarEstadoDaMatriculaRAParaSaidaIntermediaria', estadoDaMatriculaRAController.alterarEstadoDaMatriculaRAParaMatriculaSaidaIntermediaria);
+
+// Alunos da Turma
+router.post('/api/AlunosDaTurma/AlterarResultadoFinal', alunosDaTurmaController.alterarResultadoFinal);
+router.post('/api/AlunosDaTurma/PermitirAlterarResultadoFinal', alunosDaTurmaController.permitirAlterarResultadoFinal);
 
 module.exports = router;
