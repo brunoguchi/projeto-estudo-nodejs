@@ -11,6 +11,7 @@ const bnwebController = require('./controllers/bnweb')
 const gestaoAlunoController = require('./controllers/gestaoDoAlunoController')
 const estadoDaMatriculaRAController = require('./controllers/estadoDaMatriculaRA')
 const alunosDaTurmaController = require('./controllers/alunosDaTurma')
+const parametroDoRegional = require('./controllers/parametroDoRegionalController')
 
 const router = express.Router();
 
@@ -76,5 +77,9 @@ router.post('/api/EstadoDaMatriculaRA/AlterarEstadoDaMatriculaRAParaSaidaInterme
 // Alunos da Turma
 router.post('/api/AlunosDaTurma/AlterarResultadoFinal', alunosDaTurmaController.alterarResultadoFinal);
 router.post('/api/AlunosDaTurma/PermitirAlterarResultadoFinal', alunosDaTurmaController.permitirAlterarResultadoFinal);
+
+// Parametro do Regional
+router.post('/api/ParametroDoRegional', parametroDoRegional.cadastrar);
+router.get('/api/ParametroDoRegional/:parametroId', parametroDoRegional.obterPorId);
 
 module.exports = router;

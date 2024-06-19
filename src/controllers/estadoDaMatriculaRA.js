@@ -22,7 +22,7 @@ const alterarEstadoDaMatriculaRAParaTransferido =
 
         console.log('bateu no alterarEstadoDaMatriculaRAParaTransferido');
 
-        return response.status(400).json(['deu grosópi no alterarEstadoDaMatriculaRAParaTransferido']);
+        // return response.status(400).json(['deu grosópi no alterarEstadoDaMatriculaRAParaTransferido']);
         return response.status(200).json(true);
     };
 
@@ -31,7 +31,7 @@ const alterarEstadoDaMatriculaRAParaMatriculaSaidaIntermediaria =
 
         console.log('bateu no alterarEstadoDaMatriculaRAParaMatriculaSaidaIntermediaria');
 
-        //return response.status(400).json(['deu grosópi no alterarEstadoDaMatriculaRAParaMatriculaSaidaIntermediaria']);
+        // return response.status(400).json(['deu grosópi no alterarEstadoDaMatriculaRAParaMatriculaSaidaIntermediaria']);
         return response.status(200).json(true);
     };
 

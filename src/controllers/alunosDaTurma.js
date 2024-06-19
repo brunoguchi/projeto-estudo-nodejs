@@ -3,7 +3,7 @@ const alterarResultadoFinal =
 
         console.debug('bateu no alterarResultadoFinal');
 
-        return response.status(400).json(['deu grosópi no alterarResultadoFinal']);
+        // return response.status(400).json(['deu grosópi no alterarResultadoFinal']);
         return response.status(200).json(true);
     };
 
