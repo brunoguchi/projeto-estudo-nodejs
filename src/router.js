@@ -12,6 +12,7 @@ const gestaoAlunoController = require('./controllers/gestaoDoAlunoController')
 const estadoDaMatriculaRAController = require('./controllers/estadoDaMatriculaRA')
 const alunosDaTurmaController = require('./controllers/alunosDaTurma')
 const parametroDoRegional = require('./controllers/parametroDoRegionalController')
+const documentosController = require('./controllers/documentosController')
 
 const router = express.Router();
 
@@ -81,5 +82,8 @@ router.post('/api/AlunosDaTurma/PermitirAlterarResultadoFinal', alunosDaTurmaCon
 // Parametro do Regional
 router.post('/api/ParametroDoRegional', parametroDoRegional.cadastrar);
 router.get('/api/ParametroDoRegional/:parametroId', parametroDoRegional.obterPorId);
+
+router.get('/api/documentos', documentosController.obterDocumentos);
+router.get('/api/documentos/:id/download', documentosController.download);
 
 module.exports = router;
