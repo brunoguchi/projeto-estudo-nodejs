@@ -1,0 +1,55 @@
+{
+	"numeroPedido": "123456-1",
+	"dataEmissao": "2018-04-18 18:28:18",
+	"detalhes": {
+		"numeroPedidoBase": "123456",
+		"qtdItens": 2,
+		"seller": {
+			"id": 52,
+			"cnpj": "123123123123123"
+		}
+	},
+	"status": {
+		"id": 3
+	},
+	"cliente": {
+		"id": 69,
+		"cpfCnpj": "40674418000657"
+	},
+	"pagamento": [
+		{
+			"pagamentoPersonalizado": {
+				"informacoesAdicionais": [
+					{
+						"hash": "condicao-pagamento",
+						"valor": [
+							"14",
+							"21"
+						]
+					},
+					{
+						"hash": "banco-selecionado",
+						"valor": [
+							"itau",
+							"bradesco"
+						]
+					}
+				]
+			}
+		}
+	],
+	"itens": [
+		{
+			"quantidade": 300,
+			"valor": 190,
+			"sku": "3498520458420",
+			"skuSeller": "ARCSPLSPR18000220V"
+		},
+		{
+			"quantidade": 100,
+			"valor": 6.79,
+			"sku": "0194803948303",
+			"skuSeller": "ARCSPLSPR30000220V"
+		}
+	]
+}

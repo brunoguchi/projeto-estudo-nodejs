@@ -13,6 +13,7 @@ const estadoDaMatriculaRAController = require('./controllers/estadoDaMatriculaRA
 const alunosDaTurmaController = require('./controllers/alunosDaTurma')
 const parametroDoRegional = require('./controllers/parametroDoRegionalController')
 const documentosController = require('./controllers/documentosController')
+const uappiController = require('./controllers/uappiController')
 
 const router = express.Router();
 
@@ -85,5 +86,16 @@ router.get('/api/ParametroDoRegional/:parametroId', parametroDoRegional.obterPor
 
 router.get('/api/documentos', documentosController.obterDocumentos);
 router.get('/api/documentos/:id/download', documentosController.download);
+
+// UAPPI (HUB)
+router.post('/v1/auth', uappiController.obterToken);
+router.get('/v1/ping', uappiController.ping);
+router.put('/v1/products/stock-batch', uappiController.productsStockBatch);
+router.put('/v1/products/price-batch', uappiController.productsPriceBatch);
+
+// UAPPI (PLATAFORMA)
+router.post('/v2/auth', uappiController.obterToken);
+router.get('/v2/ping', uappiController.ping);
+router.get('/v2/orders/:numeroPedido', uappiController.getOrder);
 
 module.exports = router;
