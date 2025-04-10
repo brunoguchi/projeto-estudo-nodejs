@@ -1,0 +1,978 @@
+[
+    {
+        "ultimaAtualizacao": "2023-10-18T07:04:35",
+        "mercadoAlvo": {
+            "nome": "Brasil",
+            "id": 1
+        },
+        "codigoInterno": "31011660",
+        "origem": {
+            "nome": "0 - Nacional",
+            "id": "NATIONAL"
+        },
+        "idioma": {
+            "nome": "Português",
+            "id": 1
+        },
+        "medidas": {
+            "validadeUm": {
+                "abrev": "DA",
+                "baseConvercao": "DA",
+                "nome": "Dia(s)",
+                "fatorConvercao": 1
+            },
+            "quantidadeUnitario": 1,
+            "pesoBrutoValidado": "Não",
+            "quantidadePackKitUm": {
+                "abrev": "UN",
+                "baseConvercao": "",
+                "nome": "Unidade(s)",
+                "fatorConvercao": 0
+            },
+            "larguraUm": {
+                "abrev": "MM",
+                "baseConvercao": "CM",
+                "nome": "Milímetro(s)",
+                "fatorConvercao": 10
+            },
+            "pesoVariavel": "Não",
+            "pesoPadronizado": "Não",
+            "alturaUm": {
+                "abrev": "MM",
+                "baseConvercao": "CM",
+                "nome": "Milímetro(s)",
+                "fatorConvercao": 10
+            },
+            "medidasValidadas": "Não",
+            "id": 206220,
+            "volumeUm": {
+                "abrev": "UN",
+                "baseConvercao": "",
+                "nome": "Unidade(s)",
+                "fatorConvercao": 0
+            },
+            "profundidadeUm": {
+                "abrev": "MM",
+                "baseConvercao": "CM",
+                "nome": "Milímetro(s)",
+                "fatorConvercao": 10
+            },
+            "naoSeAplicaValidade": "Não",
+            "largura": 132,
+            "medidaVariavel": "Não",
+            "profundidade": 35,
+            "validade": 540,
+            "quantidadeUnitarioUm": {
+                "abrev": "UN",
+                "baseConvercao": "",
+                "nome": "Unidade(s)",
+                "fatorConvercao": 0
+            },
+            "volume": 1,
+            "pesoBrutoUm": {
+                "abrev": "g",
+                "baseConvercao": "g",
+                "nome": "Grama(s)",
+                "fatorConvercao": 1
+            },
+            "altura": 102,
+            "pesoBruto": 83.6,
+            "pesoLiquidoUm": {
+                "abrev": "g",
+                "baseConvercao": "g",
+                "nome": "Grama(s)",
+                "fatorConvercao": 1
+            },
+            "validadeIndeterminada": "Não",
+            "pesoLiquido": 81
+        },
+        "cadastroExpresso": false,
+        "mockUp": "Sim",
+        "marca": {
+            "nome": "Oreo",
+            "id": 38
+        },
+        "statusClassificacaoFiscal": {
+            "nome": "Completed",
+            "id": "COMPLETED"
+        },
+        "dataCadastroDados": "2019-08-28T03:31:37",
+        "lancamento": "2022-06-01T12:00:00",
+        "listaVariavel": [
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Biscoito sabor chocolate (farinha de trigo enriquecida com ferro, ácido fólico e vitaminas B1 (tiamina), B2 (riboflavina) e B3 (niacina), açúcar, gordura vegetal, cacau em pó, xarope de glicose, sal, fermento químico bicarbonato de sódio e aromatizante), água, açúcar, leite em pó desnatado, gordura vegetal, xarope de glicose, soro de leite, cacau em pó, liquor de cacau, emulsificante mono e diglicerídeos de ácidos graxos, estabilizantes: goma jataí, carboximetilcelulose sódica e carragena e aromatizante.",
+                "rotulo": "Ingredientes",
+                "atributo": "ingredientes"
+            },
+            {
+                "categoria": "SAC",
+                "valor": "0800 770 2550",
+                "rotulo": "Telefone",
+                "atributo": "telefone"
+            },
+            {
+                "categoria": "SAC",
+                "valor": "www.froneri.com.br",
+                "rotulo": "Site",
+                "atributo": "site"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Contém",
+                "rotulo": "Contém Lactose",
+                "atributo": "contem-lactose"
+            },
+            {
+                "categoria": "MARKETING",
+                "valor": "Sorvete super cremoso.\nMuito biscoito Oreo.",
+                "rotulo": "Benefícios",
+                "atributo": "beneficios"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Cevada",
+                "atributo": "contem-cevada"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Contém",
+                "rotulo": "Contém Glúten",
+                "atributo": "contem-gluten"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Contém",
+                "rotulo": "Contém Leite - Derivados",
+                "atributo": "contem-leite-derivados"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Contém",
+                "rotulo": "Contém Soja - Derivados",
+                "atributo": "contem-soja-derivados"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Contém",
+                "rotulo": "Contém Trigo - Derivados",
+                "atributo": "contem-trigo-derivados"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Ovo",
+                "atributo": "contem-ovo"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Amendoim",
+                "atributo": "contem-amendoim"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Aveia",
+                "atributo": "contem-aveia"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Não Contém",
+                "rotulo": "Aromatizante Artificial",
+                "atributo": "contem-aromatizante-artificial"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Nozes",
+                "atributo": "contem-nozes"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Centeio",
+                "atributo": "contem-centeio"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Amêndoa",
+                "atributo": "contem-amendoa"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Castanha-de-Caju",
+                "atributo": "contem-castanha-de-caju"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Pode Conter",
+                "rotulo": "Contém Avelã",
+                "atributo": "contem-avela"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Biscoito de Chocolate",
+                "rotulo": "Sabor",
+                "atributo": "sabor"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Light",
+                "atributo": "produto-light"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Diet",
+                "atributo": "produto-diet"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Integral",
+                "atributo": "produto-integral"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "CNPJ: 25.036.392/0001-70 - Razão Social: Froneri Brasil Distribuidora de Sorvetes e Congelados Ltda",
+                "rotulo": "Fabricado/Produzido por",
+                "atributo": "fabricado-produzido-por"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Zero Açúcar",
+                "atributo": "produto-zero-acucar"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Semidesnatado/Parcialmente Desnatado",
+                "atributo": "semidesnatado"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Desnatado",
+                "atributo": "produto-desnatado"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "-99.0",
+                "rotulo": "Temperatura Mínima",
+                "atributo": "temperatura-minima"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "Grau(s) Celsius",
+                "rotulo": "Temperatura Mínima",
+                "atributo": "temperatura-minima.um.nome"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "CE",
+                "rotulo": "Temperatura Mínima",
+                "atributo": "temperatura-minima.um.abrev"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "-18.0",
+                "rotulo": "Temperatura Máxima",
+                "atributo": "temperatura-maxima"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "Grau(s) Celsius",
+                "rotulo": "Temperatura Máxima",
+                "atributo": "temperatura-maxima.um.nome"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "CE",
+                "rotulo": "Temperatura Máxima",
+                "atributo": "temperatura-maxima.um.abrev"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Zero Calorias",
+                "atributo": "produto-zero-calorias"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Vegetariano",
+                "atributo": "produto-vegetariano"
+            },
+            {
+                "categoria": "CONS_SERV",
+                "valor": "Congelado",
+                "rotulo": "Armazenagem (Local)",
+                "atributo": "armazenagem-local"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Não Contém",
+                "rotulo": "Corante Artificial",
+                "atributo": "corante-artificial"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Sorvete",
+                "rotulo": "Nome Principal do Item",
+                "atributo": "nome-principal-do-item"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Não",
+                "rotulo": "Vegano",
+                "atributo": "produto-vegano"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Não",
+                "rotulo": "Orgânico",
+                "atributo": "produto-organico"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Não",
+                "rotulo": "Tamanho/Refil/Embalagem Econômica",
+                "atributo": "tamanho-refil-embalagem-economica"
+            },
+            {
+                "categoria": "MARKETING",
+                "valor": "Formato diferenciado de consumo.",
+                "rotulo": "Informações de Marketing",
+                "atributo": "informacoes-de-marketing"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Artesanal",
+                "atributo": "artesanal"
+            },
+            {
+                "categoria": "ALIMENTAR",
+                "valor": "Não",
+                "rotulo": "Produto de Baixa Caloria",
+                "atributo": "produto-de-baixa-caloria"
+            },
+            {
+                "categoria": "ALERGICOS",
+                "valor": "Sintético Idêntico ao Natural",
+                "rotulo": "Aromatizante",
+                "atributo": "aromatizante"
+            },
+            {
+                "categoria": "DADOS_GERAIS",
+                "valor": "Não Contém",
+                "rotulo": "Corante",
+                "atributo": "corante"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "81",
+                "rotulo": "Porção",
+                "atributo": "porcao"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Porção",
+                "atributo": "porcao.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Porção",
+                "atributo": "porcao.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "1 unidade***",
+                "rotulo": "Porção Equivalente a",
+                "atributo": "porcao-equivalente-a"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "* %Valores Diários com base em uma dieta de 2.000kcal ou 8.400kj. Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas. ** VD não estabelecido. *** Porção de referência de 60g.",
+                "rotulo": "Referência para Valores Diários",
+                "atributo": "referencia-para-valores-diarios"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Sim",
+                "rotulo": "Possui Informações Nutricionais",
+                "atributo": "possui-informacoes-nutricionais"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "7,5",
+                "rotulo": "Gorduras Totais",
+                "atributo": "gorduras-totais"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Gorduras Totais",
+                "atributo": "gorduras-totais.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Gorduras Totais",
+                "atributo": "gorduras-totais.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "14",
+                "rotulo": "%VD Gorduras Totais",
+                "atributo": "percentagem-vd-gorduras-totais"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "3,8",
+                "rotulo": "Gorduras Saturadas",
+                "atributo": "gorduras-saturadas"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Gorduras Saturadas",
+                "atributo": "gorduras-saturadas.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Gorduras Saturadas",
+                "atributo": "gorduras-saturadas.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "17",
+                "rotulo": "%VD Gorduras Saturadas",
+                "atributo": "percentagem-vd-gorduras-saturadas"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "357",
+                "rotulo": "Sódio",
+                "atributo": "sodio"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Miligrama(s)",
+                "rotulo": "Sódio",
+                "atributo": "sodio.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "MG",
+                "rotulo": "Sódio",
+                "atributo": "sodio.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "15",
+                "rotulo": "%VD Sódio",
+                "atributo": "percentagem-vd-sodio"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "235.000",
+                "rotulo": "Valor Energético (kcal)",
+                "atributo": "valor-energetico-kcal"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "12",
+                "rotulo": "%VD Valor Energético",
+                "atributo": "percentagem-vd-valor-energetico"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "2,2",
+                "rotulo": "Fibra Alimentar",
+                "atributo": "fibra-alimentar"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Fibra Alimentar",
+                "atributo": "fibra-alimentar.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Fibra Alimentar",
+                "atributo": "fibra-alimentar.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "9",
+                "rotulo": "%VD Fibra Alimentar",
+                "atributo": "percentagem-vd-fibra-alimentar"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "987.000",
+                "rotulo": "Valor Energético (kj)",
+                "atributo": "valor-energetico-kj"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "0",
+                "rotulo": "Gorduras Trans",
+                "atributo": "gorduras-trans"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Gorduras Trans",
+                "atributo": "gorduras-trans.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Gorduras Trans",
+                "atributo": "gorduras-trans.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "**",
+                "rotulo": "%VD Gorduras Trans",
+                "atributo": "percentagem-vd-gorduras-trans"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "4,1",
+                "rotulo": "Proteínas",
+                "atributo": "proteinas"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Proteínas",
+                "atributo": "proteinas.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Proteínas",
+                "atributo": "proteinas.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "5",
+                "rotulo": "%VD Proteínas",
+                "atributo": "percentagem-vd-proteinas"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "37",
+                "rotulo": "Carboidratos",
+                "atributo": "carboidratos"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Carboidratos",
+                "atributo": "carboidratos.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Carboidratos",
+                "atributo": "carboidratos.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "12",
+                "rotulo": "%VD Carboidratos",
+                "atributo": "percentagem-vd-carboidratos"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "20",
+                "rotulo": "Açúcares",
+                "atributo": "acucares"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "Grama(s)",
+                "rotulo": "Açúcares",
+                "atributo": "acucares.um.nome"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "g",
+                "rotulo": "Açúcares",
+                "atributo": "acucares.um.abrev"
+            },
+            {
+                "categoria": "INF_NUTRIC",
+                "valor": "**",
+                "rotulo": "%VD Açúcares",
+                "atributo": "percentagem-vd-acucares"
+            }
+        ],
+        "embalagemProduto": {
+            "aguardandoCorrecao": "Não",
+            "nome": "Pacote",
+            "id": 25
+        },
+        "preLancamento": "Não",
+        "embalagem": {
+            "nome": "UNIDADE",
+            "id": 1
+        },
+        "id": 216404,
+        "dataCadastro": "2019-08-27T21:49:51",
+        "descricaoCurta": "Oreo Chocolate Sandwich 20x81g",
+        "ativos": [
+            {
+                "codigo": "99",
+                "variacaoAtivo": "1",
+                "ultimaAtualizacao": "2022-05-17 19:20:45.0",
+                "nomeAtivo": "7899975801612_99_1_3000_300_SRGB.tif",
+                "largura": "3000",
+                "url": "https://drive.usercontent.google.com/download?id=1Zha4kbqpmh0jwP3ORu5Jmf0mqHftOtYQ&export=download&authuser=0",
+                "descricao": "Imagem do Cliente",
+                "tipoAtivo": "tif",
+                "altura": 3000,
+                "id": 1146545,
+                "DPI": "300",
+                "padraoCor": "SRGB",
+                "versao": 2
+            },
+            {
+                "codigo": "99",
+                "variacaoAtivo": "1",
+                "ultimaAtualizacao": "2022-05-17 19:20:45.0",
+                "nomeAtivo": "7899975801612_99_1_1200_72_SRGB.png",
+                "largura": "1200",
+                "url": "https://drive.usercontent.google.com/download?id=1pHVC1CFczfFCiLQzHEu6BFV1XWS_J_3Q&export=download&authuser=0",
+                "descricao": "Imagem do Cliente",
+                "tipoAtivo": "png",
+                "altura": 1200,
+                "id": 1146545,
+                "DPI": "72",
+                "padraoCor": "SRGB",
+                "versao": 2
+            }
+        ],
+        "imagemPrincipal": {
+            "codigo": "99",
+            "variacaoAtivo": "1",
+            "ultimaAtualizacao": "2022-05-17 19:20:45.0",
+            "nomeAtivo": "7899975801612_99_1_1200_300_RGB.png",
+            "largura": "1200",
+            "url": "https://drive.usercontent.google.com/download?id=1zCF2UPsAgqKFloPYWxFh4tVAVZBJftcB&export=download&authuser=0",
+            "descricao": "Imagem do Cliente",
+            "tipoAtivo": "png",
+            "altura": 1200,
+            "id": 1146545,
+            "DPI": "300",
+            "padraoCor": "RGB",
+            "versao": 2
+        },
+        "embalagemUnitario": {},
+        "classificacaoFiscal": {
+            "subsidio": "21 - Preparações alimentícias diversas|210500 - Sorvetes, mesmo que contenham cacau.|21050010 - Em embalagens imediatas de conteúdo inferior ou igual a 2 kg",
+            "cestDesccricao": "Sorvetes de qualquer espécie",
+            "ncm": "21050010",
+            "id": 78750,
+            "cestCodigo": "2300100"
+        },
+        "gtin": "7899975801612",
+        "contatos": [],
+        "descricaoLonga": "Sorvete Biscoito de Chocolate com Pedaços e Cobertura Biscoito Oreo Pacote 81g",
+        "ultimaAtualizacaoImg": "2022-05-17T16:20:45",
+        "categoriaPai": {
+            "nome": "Pai - Perecíveis",
+            "id": 216
+        },
+        "descricao": "Sorvete Biscoito de Chocolate Oreo Pacote 81g",
+        "submarca": {},
+        "composicoesLogisticas": [
+            {
+                "composicao": 1,
+                "isEnabled": true,
+                "niveis": [
+                    {
+                        "profundidadeUm": {
+                            "abrev": "CM",
+                            "baseConvercao": "CM",
+                            "nome": "Centímetro(s)",
+                            "fatorConvercao": 1
+                        },
+                        "unidadeDePedido": "Não",
+                        "gtin": "17899975801619",
+                        "largura": 18.1,
+                        "paletizacoes": [
+                            {
+                                "pesoLiquidoForaDaEmbalagemPalletUm": {
+                                    "abrev": "kg",
+                                    "baseConvercao": "g",
+                                    "nome": "Quilograma(s)",
+                                    "fatorConvercao": 0.001
+                                },
+                                "profundidadePallet": 120,
+                                "pesoLiquidoPalletUm": {
+                                    "abrev": "kg",
+                                    "baseConvercao": "g",
+                                    "nome": "Quilograma(s)",
+                                    "fatorConvercao": 0.001
+                                },
+                                "caixasCamada": 15,
+                                "pesoLiquidoPallet": 442.65,
+                                "pallet": 1,
+                                "volumePallet": 1794000,
+                                "larguraPallet": 100,
+                                "pesoCamadaPallet": 34.05,
+                                "alturaPalletUm": {
+                                    "abrev": "CM",
+                                    "baseConvercao": "CM",
+                                    "nome": "Centímetro(s)",
+                                    "fatorConvercao": 1
+                                },
+                                "larguraPalletUm": {
+                                    "abrev": "CM",
+                                    "baseConvercao": "CM",
+                                    "nome": "Centímetro(s)",
+                                    "fatorConvercao": 1
+                                },
+                                "pesoLiquidoForaDaEmbalagemPallet": 315.9,
+                                "alturaPallet": 149.5,
+                                "pesoBrutoPallet": 467.65,
+                                "quantidadeCaixasPallet": 195,
+                                "quantidadeCamadasPallet": 13,
+                                "pesoCamadaPalletUm": {
+                                    "abrev": "kg",
+                                    "baseConvercao": "g",
+                                    "nome": "Quilograma(s)",
+                                    "fatorConvercao": 0.001
+                                },
+                                "pesoBrutoPalletUm": {
+                                    "abrev": "kg",
+                                    "baseConvercao": "g",
+                                    "nome": "Quilograma(s)",
+                                    "fatorConvercao": 0.001
+                                },
+                                "id": 825522,
+                                "volumePalletUm": {
+                                    "abrev": "CM3",
+                                    "baseConvercao": "CM3",
+                                    "nome": "Centímetro(s) Cúbico(s)",
+                                    "fatorConvercao": 1
+                                },
+                                "profundidadePalletUm": {
+                                    "abrev": "CM",
+                                    "baseConvercao": "CM",
+                                    "nome": "Centímetro(s)",
+                                    "fatorConvercao": 1
+                                }
+                            }
+                        ],
+                        "profundidade": 38.1,
+                        "volume": 7930.52,
+                        "larguraUm": {
+                            "abrev": "CM",
+                            "baseConvercao": "CM",
+                            "nome": "Centímetro(s)",
+                            "fatorConvercao": 1
+                        },
+                        "unidadeEmbalagem": "CAIXA",
+                        "pesoBrutoUm": {
+                            "abrev": "kg",
+                            "baseConvercao": "g",
+                            "nome": "Quilograma(s)",
+                            "fatorConvercao": 0.001
+                        },
+                        "dadosComerciais": [],
+                        "altura": 11.5,
+                        "ultimoNivel": "Sim",
+                        "alturaUm": {
+                            "abrev": "CM",
+                            "baseConvercao": "CM",
+                            "nome": "Centímetro(s)",
+                            "fatorConvercao": 1
+                        },
+                        "pesoLiquidoForaDaEmbalagemUm": {
+                            "abrev": "kg",
+                            "baseConvercao": "g",
+                            "nome": "Quilograma(s)",
+                            "fatorConvercao": 0.001
+                        },
+                        "pesoLiquidoForaDaEmbalagem": 1.62,
+                        "pesoBruto": 2.27,
+                        "quantidadeTotal": 20,
+                        "id": 1397943,
+                        "quantidade": 20,
+                        "nivel": 2,
+                        "pesoLiquidoUm": {
+                            "abrev": "kg",
+                            "baseConvercao": "g",
+                            "nome": "Quilograma(s)",
+                            "fatorConvercao": 0.001
+                        },
+                        "pesoLiquido": 1.67,
+                        "volumeUm": {
+                            "abrev": "CM3",
+                            "baseConvercao": "CM3",
+                            "nome": "Centímetro(s) Cúbico(s)",
+                            "fatorConvercao": 1
+                        }
+                    },
+                    {
+                        "profundidadeUm": {
+                            "abrev": "MM",
+                            "baseConvercao": "CM",
+                            "nome": "Milímetro(s)",
+                            "fatorConvercao": 10
+                        },
+                        "unidadeDePedido": "Não",
+                        "gtin": "7899975801612",
+                        "largura": 132,
+                        "profundidade": 35,
+                        "volume": 1,
+                        "larguraUm": {
+                            "abrev": "MM",
+                            "baseConvercao": "CM",
+                            "nome": "Milímetro(s)",
+                            "fatorConvercao": 10
+                        },
+                        "unidadeEmbalagem": "UNIDADE",
+                        "pesoBrutoUm": {
+                            "abrev": "g",
+                            "baseConvercao": "g",
+                            "nome": "Grama(s)",
+                            "fatorConvercao": 1
+                        },
+                        "dadosComerciais": [],
+                        "altura": 102,
+                        "ultimoNivel": "Não",
+                        "alturaUm": {
+                            "abrev": "MM",
+                            "baseConvercao": "CM",
+                            "nome": "Milímetro(s)",
+                            "fatorConvercao": 10
+                        },
+                        "pesoBruto": 83.6,
+                        "quantidadeTotal": 1,
+                        "id": 1397944,
+                        "quantidade": 1,
+                        "nivel": 1,
+                        "pesoLiquidoUm": {
+                            "abrev": "g",
+                            "baseConvercao": "g",
+                            "nome": "Grama(s)",
+                            "fatorConvercao": 1
+                        },
+                        "pesoLiquido": 81,
+                        "volumeUm": {
+                            "abrev": "UN",
+                            "nome": "Unidade(s)",
+                            "fatorConvercao": 0
+                        }
+                    }
+                ],
+                "id": 727178,
+                "status": "Active"
+            }
+        ],
+        "operacao": "ADD",
+        "categoriaProduto": {
+            "nome": "Sorvete",
+            "id": 304,
+            "gpc": "10000215"
+        },
+        "paisOrigem": {
+            "nome": "Brasil",
+            "id": 1
+        },
+        "tipoCadastro": "Completo",
+        "fabricante": {
+            "tipoFilial": "Não",
+            "tipoPessoa": "Jurídica",
+            "endereco": {
+                "cidade": "RIO DE JANEIRO",
+                "estado": "RJ",
+                "endereco": "EST DOS BANDEIRANTES 4935LOT 2 PAL 44427",
+                "bairro": "JACAREPAGUA",
+                "id": 21490,
+                "pais": {
+                    "codigo": "BRA",
+                    "nome": "Brasil",
+                    "id": 1
+                }
+            },
+            "gln": "7899975800011",
+            "naoHomologado": "Não",
+            "nome": "FRONERI BRASIL DISTRIBUIDORA DE SORVETES E CONGELADOS LTDA.",
+            "cnpj": "25036392000170",
+            "publicacao": "Não",
+            "adicionais": {
+                "idFaturamento": "25036392000170"
+            },
+            "tipoFranquia": "Não",
+            "nomeFantasia": "FRONERI BRASIL",
+            "tipoFranqueador": "Não",
+            "tipoMatriz": "Sim",
+            "id": 636,
+            "tipoImportador": "Não",
+            "cnpjBarra": "92000170",
+            "tipoFabricante": "Sim",
+            "tipoDistribuidor": "Não"
+        },
+        "empresa": {
+            "tipoFilial": "Não",
+            "tipoPessoa": "Jurídica",
+            "endereco": {
+                "cidade": "RIO DE JANEIRO",
+                "estado": "RJ",
+                "endereco": "EST DOS BANDEIRANTES 4935LOT 2 PAL 44427",
+                "bairro": "JACAREPAGUA",
+                "id": 21490,
+                "pais": {
+                    "codigo": "BRA",
+                    "nome": "Brasil",
+                    "id": 1
+                }
+            },
+            "gln": "7899975800011",
+            "naoHomologado": "Não",
+            "nome": "FRONERI BRASIL DISTRIBUIDORA DE SORVETES E CONGELADOS LTDA.",
+            "cnpj": "25036392000170",
+            "publicacao": "Não",
+            "adicionais": {
+                "idFaturamento": "25036392000170"
+            },
+            "tipoFranquia": "Não",
+            "nomeFantasia": "FRONERI BRASIL",
+            "tipoFranqueador": "Não",
+            "tipoMatriz": "Sim",
+            "id": 636,
+            "tipoImportador": "Não",
+            "cnpjBarra": "92000170",
+            "tipoFabricante": "Sim",
+            "tipoDistribuidor": "Não"
+        },
+        "listaEspecificos": [],
+        "cnpIntegrationStatus": {
+            "nome": "Desconhecido",
+            "id": "NOT_UPDATED"
+        },
+        "versao": 2,
+        "status": {
+            "nome": "Published",
+            "id": "PUBLISHED"
+        }
+    }
+]

@@ -1,0 +1,78 @@
+{
+    "totalElements": 94,
+    "totalPages": 10,
+    "pageable": {
+        "pageNumber": 0,
+        "pageSize": 10,
+        "sort": [],
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+    },
+    "first": true,
+    "last": false,
+    "size": 10,
+    "content": [
+        {
+            "id": "ccc2d099-527d-4a45-90ae-4120ba7e2955",
+            "legal_name": "J p frutas distribuidora de alimentos ltda",
+            "trade_name": "FRUTASSA",
+            "phone": null,
+            "email": null,
+            "observations": "testando",
+            "user_company_relationship": null,
+            "associated_networks": [
+              {
+                "id": "52388b2e-e493-4d0f-9859-7ee902a9178c",
+                "description": "Rede Da Manu",
+                "economic_group": {
+                  "id": "39c33cfc-428b-4e5e-80c4-f228219542d5",
+                  "description": "Grupo Da Manu",
+                  "type": "DISTRIBUIDOR",
+                  "user_id": null,
+                  "company_id": null
+                },
+                "master_company": {
+                  "id": "ccc2d099-527d-4a45-90ae-4120ba7e2955",
+                  "legal_name": "J p frutas distribuidora de alimentos ltda",
+                  "trade_name": "FRUTASSA",
+                  "observations": "testando",
+                  "email": null,
+                  "tax_framework_id": null,
+                  "company_master_id": null
+                }
+              }
+            ],
+            "company_documents": [
+              {
+                "document_number": "37734179000110",
+                "document_type": "CNPJ"
+              },
+              {
+                "document_number": "11760899",
+                "document_type": "IE"
+              }
+            ],
+            "tax_framework": {
+              "name": "Simples Nacional",
+              "acronym": "SNAC"
+            },
+            "master_company_id": null,
+            "address": {
+              "address_country": "Brasil",
+              "address_state": "Rio de Janeiro",
+              "address_city": "São Gonçalo",
+              "address_neighborhood": "Colubande",
+              "address_zip_code": "24744560",
+              "address_purpose": "Office",
+              "address_street": "Rua capitao juvenal figueiredo",
+              "address_number": "1406",
+              "address_complement": "Pavlh:h;box:21"
+            }
+          }
+    ],
+    "number": 0,
+    "sort": [],
+    "numberOfElements": 10,
+    "empty": false
+}

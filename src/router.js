@@ -14,6 +14,9 @@ const alunosDaTurmaController = require('./controllers/alunosDaTurma')
 const parametroDoRegional = require('./controllers/parametroDoRegionalController')
 const documentosController = require('./controllers/documentosController')
 const uappiController = require('./controllers/uappiController')
+const simplusController = require('./controllers/simplusController')
+const bluesoftController = require('./controllers/bluesoftController')
+const iamController = require('./controllers/iamController')
 
 const router = express.Router();
 
@@ -97,5 +100,17 @@ router.put('/v1/products/price-batch', uappiController.productsPriceBatch);
 router.post('/v2/auth', uappiController.obterToken);
 router.get('/v2/ping', uappiController.ping);
 router.get('/v2/orders/:numeroPedido', uappiController.getOrder);
+
+// SIMPLUS
+router.get('/ping', simplusController.ping);
+router.get('/product', simplusController.getProduct);
+router.post('/jwt-login', simplusController.obterToken);
+
+// BLUESOFT
+router.get('/ping', bluesoftController.ping);
+router.get('/products', bluesoftController.getProduct);
+
+// CORE/IAM
+router.get('/v1/companies', iamController.getCompanies);
 
 module.exports = router;

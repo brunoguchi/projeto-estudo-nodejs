@@ -1,0 +1,96 @@
+{
+    "products": [
+        {
+            "description": "EXTRATO TOMATE",
+            "gtin": 7896292332324,
+            "width": 0,
+            "height": 0,
+            "length": 0,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2015-01-14T22:00:00.000-02:00",
+            "updated_at": "2025-03-01T13:51:21.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7896292332324,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/E0302619C34021ED481199CE4EEBEB7A.png",
+            "brand": {
+                "name": "LIGHTSWEET",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_lightsweet"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "20021000",
+                "description": "Tomates inteiros ou em pedaços",
+                "full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Tomates preparados ou conservados, exceto em vinagre ou em ácido acético. - Tomates inteiros ou em pedaços",
+                "ex": null
+            }
+        },
+        {
+            "description": "COCA COLA",
+            "gtin": 7894900019254,
+            "thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894900019254",
+            "width": null,
+            "height": null,
+            "length": null,
+            "net_weight": null,
+            "gross_weight": null,
+            "created_at": "2016-01-19T16:28:43.000-02:00",
+            "updated_at": "2025-03-04T07:47:26.000-03:00",
+            "release_date": null,
+            "price": null,
+            "avg_price": null,
+            "max_price": 0,
+            "min_price": 0,
+            "gtins": [
+                {
+                    "gtin": 7894900019254,
+                    "commercial_unit": {
+                        "type_packaging": "Unidade",
+                        "quantity_packaging": 1,
+                        "ballast": null,
+                        "layer": null
+                    }
+                }
+            ],
+            "origin": "COSMOS",
+            "barcode_image": "https://api.cosmos.bluesoft.com.br/products/barcode/A7DD9B7D9F009AE8798E3CCBFB819B22.png",
+            "brand": {
+                "name": "COCA-COLA",
+                "picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_coca-cola"
+            },
+            "gpc": {
+                "code": "50000000",
+                "description": "Alimentos / Bebidas / Tabaco"
+            },
+            "ncm": {
+                "code": "22021000",
+                "description": "- Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "full_description": "Bebidas, líquidos alcoólicos e vinagres - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas, da posição 20.09. - - Águas,  incluindo  as  águas  minerais  e  as  águas  gaseificadas,  adicionadas  de  açúcar  ou  de  outrosedulcorantes ou aromatizadas",
+                "ex": null
+            }
+        }
+    ],
+    "current_page": 1,
+    "per_page": 30,
+    "total_pages": 33,
+    "total_count": 973,
+    "next_page": "https://api.cosmos.bluesoft.com.br/products?page=2&query=extrato+de+tomate"
+}
