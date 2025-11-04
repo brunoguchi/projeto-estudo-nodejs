@@ -1,0 +1,52 @@
+{
+    "httpStatusCode": "200",
+    "codMensagem": "CBTT0020",
+    "mensagem": "NÃO HÁ MAIS DADOS PARA ESTA PESQUISA",
+    "restart": 0,
+    "maisPaginas": "N",
+    "qtdeOcorr": 136,
+    "listaDePagamentos": [
+        {
+            "nomePagador": "TESTE PF",
+            "tipoPessoaPagador": 1,
+            "cpfCnpjPagador": 9707120,
+            "filialCnpjPagador": 0,
+            "ctrlCpfCnpjPagador": 6,
+            "nomePortador": "Portador PJ",
+            "tipoPessoaPortador": 2,
+            "cpfCnpjPortador": 54275283,
+            "filialCnpjPortador": 1,
+            "ctrlCpfCnpjPortador": 3,
+            "valorBoleto": 2000,
+            "valorPago": 2000,
+            "canalPagamento": 3,
+            "meioPagamento": 2,
+            "codigoBarras": "23792108400000020002856095134000030702226520",
+            "linhaDigitavel": "23792856009513400003307022265206210840000002000",
+            "dataPagtoTitulo": 16052025,
+            "horaPagtoTitulo": 123251,
+            "bancoRecebedor": 237
+        },
+        {
+            "nomePagador": "TESTE PJ",
+            "tipoPessoaPagador": 2,
+            "cpfCnpjPagador": 7908438,
+            "filialCnpjPagador": 1,
+            "ctrlCpfCnpjPagador": 11,
+            "nomePortador": "Portador PF",
+            "tipoPessoaPortador": 1,
+            "cpfCnpjPortador": 54025248,
+            "filialCnpjPortador": 0,
+            "ctrlCpfCnpjPortador": 40,
+            "valorBoleto": 667,
+            "valorPago": 667,
+            "canalPagamento": 3,
+            "meioPagamento": 2,
+            "codigoBarras": "23795108400000006672856095134000040502226520",
+            "linhaDigitavel": "23792856009513400004105022265200510840000000667",
+            "dataPagtoTitulo": 16052025,
+            "horaPagtoTitulo": 115410,
+            "bancoRecebedor": 237
+        }
+    ]
+}

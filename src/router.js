@@ -17,6 +17,8 @@ const uappiController = require('./controllers/uappiController')
 const simplusController = require('./controllers/simplusController')
 const bluesoftController = require('./controllers/bluesoftController')
 const iamController = require('./controllers/iamController')
+const omniController = require('./controllers/omniBradescoController')
+const anymarketFeatureFlagController = require('./controllers/anymarketFeatureFlag');
 
 const router = express.Router();
 
@@ -112,5 +114,14 @@ router.get('/products', bluesoftController.getProduct);
 
 // CORE/IAM
 router.get('/v1/companies', iamController.getCompanies);
+
+// Bradesco Emulador Token
+router.get('/jwt-login-bradesco', omniController.obterToken);
+router.post('/jwt-signature-bradesco', omniController.obterBradSignatureHeader);
+router.post('/auth/server/v1.1/token', omniController.mockedToken);
+router.post('/v1/cbon/consulta-dados-portador/boletos-pagos', omniController.mockedObterBoletos);
+
+// Anymarket
+router.get('/featureflag/identifier/:identifier/key/:key', anymarketFeatureFlagController.getFeatureFlag);
 
 module.exports = router;
