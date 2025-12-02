@@ -19,6 +19,7 @@ const bluesoftController = require('./controllers/bluesoftController')
 const iamController = require('./controllers/iamController')
 const omniController = require('./controllers/omniBradescoController')
 const anymarketFeatureFlagController = require('./controllers/anymarketFeatureFlag');
+const alertsController = require('./controllers/alertsController');
 
 const router = express.Router();
 
@@ -122,6 +123,13 @@ router.post('/auth/server/v1.1/token', omniController.mockedToken);
 router.post('/v1/cbon/consulta-dados-portador/boletos-pagos', omniController.mockedObterBoletos);
 
 // Anymarket
-router.get('/featureflag/identifier/:identifier/key/:key', anymarketFeatureFlagController.getFeatureFlag);
+router.get('/featureflag/identifier/:identifier/key/:key', anymarketFeatureFlagController.getFeatureFlagV2);
+router.get('/feature-flag/:identifier/key/:key', anymarketFeatureFlagController.getFeatureFlagCore);
+
+// Alerts
+router.post('/alerta-geral', alertsController.postAlertGeral);
+router.post('/alerta-painel3', alertsController.postAlertPainel3);
+router.post('/alerta-painel4', alertsController.postAlertPainel4);
+router.post('/alerta-painel9', alertsController.postAlertPainel9);
 
 module.exports = router;
