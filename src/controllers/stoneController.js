@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 const path = require('path');
-const { privateDecrypt } = require("crypto");
+const { privateDecrypt, createHash, createDecipheriv } = require("crypto");
 const { readFileSync, readFile } = require("fs");
 const forge = require("node-forge");
 const https = require('https');
@@ -165,12 +165,12 @@ const obterTokenChallenge = (request, response) => {
 
   const jsonResponse_706 = {
     "success": true,
-    "data": "99c2d226146552eaa9efc1a3e1adff84327e2fd2c54dd5eda676444dc7526ea8fa3f9118d96fa47e9e553eae6d35feccd0dd84869699f054b570a569d723770470258706c7b909557e647369369d5a0cb7c5fcac763130d49a30288b5416fee3bf2d2263afdf63beeab23858bfa31b69d4586b7f08665932d864b04933710cfc14bbdb696f3bed8fb2353583b8f6d0c0a9f287e595f56097154987dbc2e610fdfff8fb6b35d65f7655b916ab2dc600de366c75c4137dcdc42fcd046057f332483379dcee0ca3c243d6330dca7138ee6c854523cbcda7cedf34b63a1d52e75bb57589fa007df5850981044439c44d0013e9e1c375d93a2ce63b56fa9c64d931fb"
+    "data": "164da4d83f6276e3d821e64e73f2644a4ea3229fed8d22eed0b32a57596d8f0eef842dbcf45c61a87531b2789dd8758c19a0d1f989e09befce2946578ca15c685286a834827e0ff86ab7c0b08589c5f13bca586e115c98d11af3282e1f91603435b99d04d6fe33dc4e1f8b3b08ea49fca0793e7a07380efca91a504bcb176d9568f5b2ecb8ee3d020bb797f1cfbc128cb84e1353bfc05572e038f2d88508013938a34251bcce8b8fae29a7828f0dd0f5c9a1cfe1375cf92e7ae60e680542f43b00a1346845df165ee57f452890f21b937383a4b2c55738a726aa83baed481a0287d9eea815c23c256867a56f0578718ec75ad19aa46b4178ae537eceaafa3019"
   };
 
   const jsonResponse_748 = {
     "success": true,
-    "data": "3d4e975216e23e53926d337ae5c92f3ba5f76f2293afa4283b7c0fd03797559fc9cf51915b37ed56a66bbd37ca400cae118851ffb927408686a7d7fd2b4406b8d28a6318a09a1e076c16202b947881fcc8dba7ed368f14885d8befd1d06598407ea64f02c5dc992d42114b45b6d716bc824dcef9c36b446687ab73f9ed0c0264867b7d260c30503147849522b2d2bf0cd93c10088d4ab2caa3c181d9d4618240df08d47a53dc5f0442ae75556a2b153248eb874f0959252abdd33c2a0c3f4ba1a30293d211c04f752850487f0d100f55b6982d82307716c79935b442834211223e82106e44d7a08e7cd0a28ce3a34719ea537006ebfa11306ae2d0f3b18fb44a"
+    "data": "a8d96694cf0ae77460f8c1510f353f9bebad64294f69e3db43311832f21bbc7e32e40b6e014c874e28f9035cd2ea98f16e1ddb2fbbddbd9f344419eda8013329bcabbf6850626d462f6d94a1e4961c8883240a95eee8165b1e8505b20a88b9d3c8607abf274e99e5f2c9950405158cc07b6efab55ae640ea00a0afa34b8a9e2046aa913a8054c3634301683e60778e1dbe43692bcdbf17b76247da46e46d77d668e90f8e7d04d97b3d27abc5ef3f376307afb914392a6072ae2a772eb16122c31c9178a5879f298dd1654e964980c0b8164f680f7f59b3c85b1a7eb6ac112619f729a59d121370cc1859f5ec377e1deb8956053b2e102e36c2e11df66e7eae69"
   };
 
 
@@ -187,21 +187,22 @@ const obterTokenChallenge = (request, response) => {
 };
 
 const obterClienteStone = (request, response) => {
-  var jsonResponse = {
-    "success": true,
-    "data": {
-      "account": "52351182",
-      "message": "Conta existente"
-    }
-  }
-
   // var jsonResponse = {
   //   "success": true,
   //   "data": {
-  //     "message": "Conta não existente"
+  //     "account": "52351182",
+  //     "message": "Conta existente"
   //   }
   // }
 
+  var jsonResponse = {
+    "success": true,
+    "data": {
+      "message": "Conta não existente"
+    }
+  }
+
+  //return response.status(400).json([{ error: 'deu erro ao consultar conta stone' }]);
   return response.status(200).json(jsonResponse);
 }
 
@@ -258,7 +259,7 @@ const cadastrarClienteStone = (request, response) => {
     }
   };
 
-  //return response.status(400).json(['deu grosópi']);
+  //return response.status(403).json([{"success": false, "error": "Recomendar que cliente siga o processo pelo app!" }]);
   return response.status(200).json(jsonResponse);
 }
 
@@ -325,7 +326,7 @@ const cadastrarAfiliados = (request, response) => {
     }
   }
 
-  //return response.status(400).json(['deu grosópi']);
+  // return response.status(400).json(['deu grosópi']);
   return response.status(200).json(jsonResponse);
 }
 
@@ -550,25 +551,42 @@ const obterOrdensServico = (request, response) => {
 
 const obterArquivoConciliacaoXml = (request, response) => {
   try {
-    const { cnpj } = request.params;
-    console.log('Header Authorization:', request.headers['authorization']);
+    const { stoneCode } = request.params;
+    let filePath = "";
 
-    // if (cnpj !== '67890123000155') {
-    //   return response.status(400).json("deu bom não");
-    // }
+    console.log("Stone Code recebido: ", stoneCode);
 
-    const filePath = 'C:\\temp\\stone\\stone-conciliacao.xml';
-    //const filePath = 'C:\\temp\\stone\\arquivo-transacional-cliente-67890123000155.xml';
-    //const filePath = 'C:\\Users\\bruno.noguchi\\Downloads\\exemplo-arquivo-transacional-stone.xml';
+    if (stoneCode === '4008-FWXG') { // Empresa 4008
+      filePath = 'C:\\temp\\stone\\4008-arquivo-financeiro-votorantim.xml';
+      console.log("Arquivo selecionado para empresa 4008: ", filePath);
+    } else if (stoneCode === '4014-XPTO') { // Empresa 4014
+      filePath = 'C:\\temp\\stone\\4014-arquivo-financeiro-votorantim.xml';
+      console.log("Arquivo selecionado para empresa 4014: ", filePath);
+    } else if (stoneCode === '272440958') { // Cliente 200001 - StoneCode = 272440958
+      filePath = 'C:\\temp\\stone\\4014-arquivo-transacional-cliente-48684123000115-272440958.xml';
+      //filePath = 'C:\\temp\\stone\\48272444000102_transacional_response.xml';
+      //filePath = 'C:\\temp\\stone\\11442366000137_transacional_response.xml';
+      //filePath = 'C:\\temp\\stone\\82525171000107_transacional_response.xml';
+      //filePath = 'C:\\temp\\stone\\arquivo-invalido.xml';
+      console.log("Arquivo selecionado para cliente 200001: ", filePath);
+    } else if (stoneCode === '123456789') { // Cliente 200001 - StoneCode = 123456789
+      filePath = 'C:\\temp\\stone\\4014-arquivo-transacional-cliente-48684123000115-123456789.xml';
+      console.log("Arquivo selecionado para cliente 200001: ", filePath);
+    } else {
+      filePath = "";
+      console.log("Stone Code não reconhecido, nenhum arquivo selecionado.");
+    }
+
 
     readFile(filePath, 'utf8', (err, data) => {
       if (err) {
         return response.status(500).json({
-          message: 'Erro ao ler o arquivo XML'
+          message: 'Erro ao ler o arquivo XML: ' + err.message
         });
       }
 
       response.setHeader('Content-Type', 'application/xml');
+      //return response.status(400).json([{ error: 'deu erro ao obter arquivo de conciliação da stone' }]);
       return response.status(200).send(data);
     });
 
@@ -616,8 +634,8 @@ const pedidoConsentimentoConciliacao = (request, response) => {
     // Simula o processamento assíncrono do consentimento
     setTimeout(() => {
       const webhookPayload = {
-        "username": "partner_conciliation_0d21ecbeaf2142019978ebbad1672538",
-        "password": "U1BUKETnB788R8+FUYkyYQ==",
+        "username": "usuarioAdquirenteStoneConciliacao748",
+        "password": "ZJuGQotz7x/LmE+Iwx34vQ==",
         "consent_id": consentId,
         "status": "accepted",
         "document": document || "22345678901235",
@@ -748,6 +766,65 @@ const obterTokenConciliacao = async (request, response) => {
   return response.status(200).json(jsonResponse);
 }
 
+const resolverChallengeSenhaConciliacao = async (request, response) => {
+  try {
+    const {
+      encryptedPassword,
+      password,
+      senhaCriptografada,
+      challenge,
+      client_id,
+      clientId,
+      username,
+      user
+    } = request.body;
+
+    const senhaRecebida = encryptedPassword || password || senhaCriptografada || challenge;
+    const clientIdRecebido = client_id || clientId;
+    const usernameRecebido = username || user;
+
+    if (!senhaRecebida) {
+      return response.status(400).json({
+        error: "Senha criptografada é obrigatória",
+        message: "Envie encryptedPassword (ou password/senhaCriptografada/challenge) no body"
+      });
+    }
+
+    if (!clientIdRecebido) {
+      return response.status(400).json({
+        error: "client_id é obrigatório",
+        message: "Envie client_id (ou clientId) no body"
+      });
+    }
+
+    if (!usernameRecebido) {
+      return response.status(400).json({
+        error: "username é obrigatório",
+        message: "Envie username (ou user) no body"
+      });
+    }
+
+    const key = createHash('md5').update(clientIdRecebido, 'utf8').digest();
+    const iv = createHash('md5').update(usernameRecebido, 'utf8').digest();
+
+    const decipher = createDecipheriv('aes-128-cbc', key, iv);
+    const decryptedPassword = Buffer.concat([
+      decipher.update(Buffer.from(senhaRecebida, 'base64')),
+      decipher.final()
+    ]).toString('utf8');
+
+    return response.status(200).json({
+      password: decryptedPassword,
+      message: "Senha descriptografada com sucesso"
+    });
+  } catch (error) {
+    return response.status(500).json({
+      error: error.message,
+      message: "Erro ao descriptografar senha"
+    });
+  }
+}
+
 module.exports = {
   gerarToken,
   resolverChallenge,
@@ -764,5 +841,6 @@ module.exports = {
   obterArquivoConciliacaoXml,
   pedidoConsentimentoConciliacao,
   receberWebhookConciliacao,
-  obterTokenConciliacao
+  obterTokenConciliacao,
+  resolverChallengeSenhaConciliacao
 };

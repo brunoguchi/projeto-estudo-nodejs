@@ -42,352 +42,325 @@ const getConsultaCredito =
             "value": [
                 {
                     "empresa": "4014",
+                    "doc_contab": "2000869769",
+                    "exercicio": "2026",
+                    "item": "1",
+                    "origem": "",
                     "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "5000266868",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "7",
-                    "num_atribuicao": "Vloz",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "VLOZ",
-                    "tipo_doc": "AB",
-                    "divisao": "4001",
-                    "valor": 1278.00,
-                    "contab_geral": "21601012",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "2044667522",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "",
-                    "credito_debito": "H",
-                    "codigo_razao": ""
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "1100003730",
-                    "cliente": "1006085",
+                    "cliente": "1006408",
+                    "cnpj_cliente": "82525171000107",
                     "cod_raz_especial": "",
-                    "num_atribuicao": "",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
+                    "num_atribuicao": "9062753536",
+                    "data_lancamento": "2026-04-30",
+                    "data_doc": "2026-05-28",
                     "codigo_moeda": "BRL",
-                    "num_doc_ref": "UTIL. CRED.",
-                    "tipo_doc": "CL",
-                    "divisao": "4070",
-                    "valor": 574.83,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "UTIL. CRED.",
+                    "num_doc_ref": "002842886-6",
+                    "tipo_doc": "RV",
                     "credito_debito": "S",
-                    "codigo_razao": ""
+                    "divisao": "4002",
+                    "valor": 79.84,
+                    "contab_geral": "11201010",
+                    "dta_calc_venc": "2026-04-30",
+                    "forma_pag_financ": "F",
+                    "doc_faturamento": "9062753536",
+                    "doc_vendas": "2051340854",
+                    "area_credito": "4000",
+                    "text": "Doc. Faturamento MATERCIC M Como ref.",
+                    "codigo_razao": "",
+                    "doc_compensacao": "2100024124",
+                    "data_compensacao": "2026-04-30",
+                    "forma_pag_fatura": "Boleto a Prazo + VLoz",
+                    "valor_pedido_nf": 111.72,
+                    "valor_pedido_ov": 111.72,
+                    "total_nf_c_desconto": 111.72,
+                    "saldo_vloz_usado": 10.25,
+                    "valor_boletos": 79.84,
+                    "codigo_pagador": "1006408",
+                    "cnpj_pagador": "82525171000107",
+                    "codigo_emissor": "1006408",
+                    "cnpj_emissor": "82525171000107"
                 },
                 {
                     "empresa": "4014",
-                    "adquirente": "01",
-                    "exercicio": "2025",
-                    "doc_contab": "1300078059",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "7",
-                    "num_atribuicao": "VLOZ-Crédito",
-                    "data_lancamento": "2025-02-03",
-                    "data_doc": "2025-02-03",
+                    "doc_contab": "2000869769",
+                    "exercicio": "2026",
+                    "item": "2",
+                    "origem": "",
+                    "adquirente": "",
+                    "cliente": "1006408",
+                    "cnpj_cliente": "82525171000107",
+                    "cod_raz_especial": "",
+                    "num_atribuicao": "9062753536",
+                    "data_lancamento": "2026-04-30",
+                    "data_doc": "2026-05-28",
                     "codigo_moeda": "BRL",
-                    "num_doc_ref": "VLOZ-CRÉDITO",
-                    "tipo_doc": "DZ",
-                    "divisao": "4001",
-                    "valor": 2107.44,
-                    "contab_geral": "21601012",
-                    "dta_calc_venc": "2025-02-03",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
+                    "num_doc_ref": "002842886-6",
+                    "tipo_doc": "RV",
+                    "credito_debito": "S",
+                    "divisao": "4002",
+                    "valor": 31.88,
+                    "contab_geral": "11201010",
+                    "dta_calc_venc": "2026-04-30",
+                    "forma_pag_financ": "@",
+                    "doc_faturamento": "9062753536",
+                    "doc_vendas": "2051340854",
                     "area_credito": "4014",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "VLOZ-Crédito",
-                    "credito_debito": "H",
-                    "codigo_razao": "A"
+                    "text": "Doc. Faturamento MATERCIC M Como ref.",
+                    "codigo_razao": "",
+                    "doc_compensacao": "2100024124",
+                    "data_compensacao": "2026-04-30",
+                    "forma_pag_fatura": "Boleto a Prazo + VLoz",
+                    "valor_pedido_nf": 111.72,
+                    "valor_pedido_ov": 111.72,
+                    "total_nf_c_desconto": 111.72,
+                    "saldo_vloz_usado": 31.88,
+                    "valor_boletos": 79.84,
+                    "codigo_pagador": "1006408",
+                    "cnpj_pagador": "82525171000107",
+                    "codigo_emissor": "1006408",
+                    "cnpj_emissor": "82525171000107"
                 },
                 {
                     "empresa": "4014",
-                    "adquirente": "01",
-                    "exercicio": "2025",
-                    "doc_contab": "1300080891",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "7",
-                    "num_atribuicao": "VLOZ-Crédito",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
+                    "doc_contab": "2100024124",
+                    "exercicio": "2026",
+                    "item": "1",
+                    "origem": "",
+                    "adquirente": "",
+                    "cliente": "1006408",
+                    "cnpj_cliente": "82525171000107",
+                    "cod_raz_especial": "",
+                    "num_atribuicao": "9062753536",
+                    "data_lancamento": "2026-04-30",
+                    "data_doc": "2026-05-28",
                     "codigo_moeda": "BRL",
-                    "num_doc_ref": "VLOZ-CRÉDITO",
-                    "tipo_doc": "DZ",
-                    "divisao": "4001",
-                    "valor": 2963.98,
-                    "contab_geral": "21601012",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
+                    "num_doc_ref": "002842886-6",
+                    "tipo_doc": "RC",
+                    "credito_debito": "H",
+                    "divisao": "4002",
+                    "valor": 79.84,
+                    "contab_geral": "11201010",
+                    "dta_calc_venc": "2026-04-30",
+                    "forma_pag_financ": "F",
+                    "doc_faturamento": "9062754087",
+                    "doc_vendas": "2051340854",
+                    "area_credito": "4000",
+                    "text": "Doc. Faturamento MATERCIC M Como ref.",
+                    "codigo_razao": "",
+                    "doc_compensacao": "2100024124",
+                    "data_compensacao": "2026-04-30",
+                    "forma_pag_fatura": "Boleto a Prazo + VLoz",
+                    "valor_pedido_nf": 111.72,
+                    "valor_pedido_ov": 111.72,
+                    "total_nf_c_desconto": 111.72,
+                    "saldo_vloz_usado": 31.88,
+                    "valor_boletos": 79.84,
+                    "codigo_pagador": "1006408",
+                    "cnpj_pagador": "82525171000107",
+                    "codigo_emissor": "1006408",
+                    "cnpj_emissor": "82525171000107"
+                },
+                {
+                    "empresa": "4014",
+                    "doc_contab": "2100024124",
+                    "exercicio": "2026",
+                    "item": "2",
+                    "origem": "",
+                    "adquirente": "",
+                    "cliente": "1006408",
+                    "cnpj_cliente": "82525171000107",
+                    "cod_raz_especial": "",
+                    "num_atribuicao": "9062753536",
+                    "data_lancamento": "2026-04-30",
+                    "data_doc": "2026-05-28",
+                    "codigo_moeda": "BRL",
+                    "num_doc_ref": "002842886-6",
+                    "tipo_doc": "RC",
+                    "credito_debito": "H",
+                    "divisao": "4002",
+                    "valor": 31.88,
+                    "contab_geral": "11201010",
+                    "dta_calc_venc": "2026-04-30",
+                    "forma_pag_financ": "@",
+                    "doc_faturamento": "9062754087",
+                    "doc_vendas": "2051340854",
                     "area_credito": "4014",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "VLOZ-Crédito",
-                    "credito_debito": "H",
-                    "codigo_razao": "A"
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "1400135161",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "R",
-                    "num_atribuicao": "",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "",
-                    "tipo_doc": "LC",
-                    "divisao": "4001",
-                    "valor": 113.67,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-03-18",
-                    "forma_pag_financ": "F",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "Cobrança bancária UNIVALE UN Como ref.",
-                    "credito_debito": "S",
-                    "codigo_razao": "W"
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "2000222947",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "",
-                    "num_atribuicao": "9058131252",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "002600912-6",
-                    "tipo_doc": "RV",
-                    "divisao": "4002",
-                    "valor": 13902.00,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "F",
-                    "forma_pag_pedido": "within 7 days Due net",
-                    "doc_faturamento": "9058131252",
-                    "doc_vendas": "2046730352",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 13902.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 13902.00,
-                    "valor_pedido_nf": 13902.00,
-                    "valor_pedido_ov": 13902.00,
-                    "text": "3931730 - Vínculo - Compensação de Crédito",
-                    "credito_debito": "S",
-                    "codigo_razao": ""
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "2000222948",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "",
-                    "num_atribuicao": "9058131253",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "002600913-6",
-                    "tipo_doc": "RV",
-                    "divisao": "4002",
-                    "valor": 113.67,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "F",
-                    "forma_pag_pedido": "within 42 days Due net",
-                    "doc_faturamento": "9058131253",
-                    "doc_vendas": "2046730352",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 113.67,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 113.67,
-                    "valor_pedido_nf": 113.67,
-                    "valor_pedido_ov": 113.67,
-                    "text": "Doc. Faturamento UNIVALE UN Como ref.",
-                    "credito_debito": "S",
-                    "codigo_razao": ""
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "2000222950",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "",
-                    "num_atribuicao": "9058131255",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "002600914-6",
-                    "tipo_doc": "RV",
-                    "divisao": "4002",
-                    "valor": 835.00,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "F",
-                    "forma_pag_pedido": "within 28 days Due net",
-                    "doc_faturamento": "9058131255",
-                    "doc_vendas": "2046730352",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 835.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 835.00,
-                    "valor_pedido_nf": 835.00,
-                    "valor_pedido_ov": 835.00,
-                    "text": "3931737 - Vínculo - Compensação de Crédito",
-                    "credito_debito": "S",
-                    "codigo_razao": ""
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "5000265487",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "7",
-                    "num_atribuicao": "CASHBACK VLOZ",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "CASHBACK VLOZ",
-                    "tipo_doc": "AB",
-                    "divisao": "4001",
-                    "valor": 1823.87,
-                    "contab_geral": "21601012",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "CASHBACK VLOZ  JANEIRO",
-                    "credito_debito": "H",
-                    "codigo_razao": "A"
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "5000266707",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "",
-                    "num_atribuicao": "",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "VLOZ",
-                    "tipo_doc": "AB",
-                    "divisao": "4002",
-                    "valor": 835.00,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "Documento contábil UNIVALE UN Como ref.",
-                    "credito_debito": "H",
-                    "codigo_razao": ""
-                },
-                {
-                    "empresa": "4014",
-                    "adquirente": "",
-                    "exercicio": "2025",
-                    "doc_contab": "5000266868",
-                    "cliente": "1006085",
-                    "cod_raz_especial": "",
-                    "num_atribuicao": "",
-                    "data_lancamento": "2025-02-04",
-                    "data_doc": "2025-02-04",
-                    "codigo_moeda": "BRL",
-                    "num_doc_ref": "VLOZ",
-                    "tipo_doc": "AB",
-                    "divisao": "4002",
-                    "valor": 13902.00,
-                    "contab_geral": "11201010",
-                    "dta_calc_venc": "2025-02-04",
-                    "forma_pag_financ": "",
-                    "forma_pag_pedido": "",
-                    "doc_faturamento": "",
-                    "doc_vendas": "",
-                    "area_credito": "4000",
-                    "total_nf_c_desconto": 0.00,
-                    "saldo_vloz_usado": 0.00,
-                    "valor_boletos": 0.00,
-                    "valor_pedido_nf": 0.00,
-                    "valor_pedido_ov": 0.00,
-                    "text": "Documento contábil UNIVALE UN Como ref.",
-                    "credito_debito": "H",
-                    "codigo_razao": ""
+                    "text": "Doc. Faturamento MATERCIC M Como ref.",
+                    "codigo_razao": "",
+                    "doc_compensacao": "2100024124",
+                    "data_compensacao": "2026-04-30",
+                    "forma_pag_fatura": "Boleto a Prazo + VLoz",
+                    "valor_pedido_nf": 111.72,
+                    "valor_pedido_ov": 111.72,
+                    "total_nf_c_desconto": 111.72,
+                    "saldo_vloz_usado": 31.88,
+                    "valor_boletos": 79.84,
+                    "codigo_pagador": "1006408",
+                    "cnpj_pagador": "82525171000107",
+                    "codigo_emissor": "1006408",
+                    "cnpj_emissor": "82525171000107"
                 }
             ]
         };
 
+        //return response.status(400).json(['deu grosópi no getConsultaCredito']);
         return response.status(200).json(jsonResponse);
     };
 
+const getLimiteCredito =
+    (request, response) => {
+        const decodedUrl = decodeURIComponent(request.url);
+        const limiteMatch = decodedUrl.match(/limite\(area_cred='([^']+)',cliente='([^']+)'\)\/Set/i);
+
+        if (!limiteMatch) {
+            return response.status(400).json({ error: 'Formato de URL inválido para consulta de limite' });
+        }
+
+        const areaCredito = limiteMatch[1];
+        const cliente = limiteMatch[2];
+
+        const now = new Date();
+        const timestamp = now.getFullYear().toString() +
+            (now.getMonth() + 1).toString().padStart(2, '0') +
+            now.getDate().toString().padStart(2, '0') +
+            now.getHours().toString().padStart(2, '0') +
+            now.getMinutes().toString().padStart(2, '0') +
+            now.getSeconds().toString().padStart(2, '0');
+
+        var jsonResponse = {
+            "@odata.context": `../$metadata#limite(area_cred='${areaCredito}',cliente='${cliente}')/Set`,
+            "@odata.metadataEtag": `W/"${timestamp}"`,
+            "value": [
+                {
+                    "kunnr": "1034742",
+                    "name1": "M G C COMERCIO DE MATERIAIS DE",
+                    "kkber": "4014",
+                    "creditlimit": 25235.00,
+                    "dbekr": 0.00,
+                    "sum_opens": 19825.99,
+                    "delta_to_limit": 5409.01,
+                    "percentage": 78.57,
+                    "open_items": 0.00,
+                    "open_specials": 13247.84,
+                    "open_delivery": 0.00,
+                    "open_order": 6578.15,
+                    "open_invoice": 0.00,
+                    "cashd": null,
+                    "casha": 290.20,
+                    "cashc": 0.00,
+                    "crblb": "",
+                    "zlimite_add": 10094.00
+                },
+                {
+                    "kunnr": "1034742",
+                    "name1": "M G C COMERCIO DE MATERIAIS DE",
+                    "kkber": "4008",
+                    "creditlimit": 1561.43,
+                    "dbekr": 0.00,
+                    "sum_opens": 0.00,
+                    "delta_to_limit": 37.01,
+                    "percentage": 0.00,
+                    "open_items": 0.00,
+                    "open_specials": 0.00,
+                    "open_delivery": 0.00,
+                    "open_order": 1524.42,
+                    "open_invoice": 0.00,
+                    "cashd": null,
+                    "casha": 0.00,
+                    "cashc": 0.00,
+                    "crblb": "",
+                    "zlimite_add": 0.00
+                }
+            ]
+        };
+
+        //return response.status(400).json(['deu grosópi no getLimiteCredito']);
+        return response.status(200).json(jsonResponse);
+    };
+
+const getEstabelecimento =
+    (request, response) => {
+        const queryString = request.url.split('?')[1];
+
+        if (!queryString) {
+            return response.status(400).json({ error: 'Query string não encontrada' });
+        }
+
+        const decodedQuery = decodeURIComponent(queryString);
+        const estabelecimentoMatch = decodedQuery.match(/estabelecimento\s+eq\s+'([^']+)'/i);
+        const filialMatch = decodedQuery.match(/filial\s+eq\s+'([^']+)'/i);
+        const clienteMatch = decodedQuery.match(/cliente\s+eq\s+'([^']+)'/i);
+        const cnpjMatch = decodedQuery.match(/cnpj\s+eq\s+'([^']+)'/i);
+        const statusMatch = decodedQuery.match(/status\s+eq\s+'([^']+)'/i);
+
+        if (!estabelecimentoMatch || !filialMatch || !clienteMatch || !cnpjMatch || !statusMatch) {
+            return response.status(400).json({ error: 'Formato de URL inválido para consulta de estabelecimento' });
+        }
+
+        const estabelecimento = estabelecimentoMatch[1];
+        const filial = filialMatch[1];
+        const cliente = clienteMatch[1];
+        const cnpj = cnpjMatch[1];
+        const status = statusMatch[1];
+
+        const now = new Date();
+        const timestamp = now.getFullYear().toString() +
+            (now.getMonth() + 1).toString().padStart(2, '0') +
+            now.getDate().toString().padStart(2, '0') +
+            now.getHours().toString().padStart(2, '0') +
+            now.getMinutes().toString().padStart(2, '0') +
+            now.getSeconds().toString().padStart(2, '0');
+
+        const jsonResponse = {
+            "@odata.context": '$metadata#estabelecimento',
+            "@odata.metadataEtag": `W/"${timestamp}"`,
+            "value": [
+                {
+                    "adquirente": "01",
+                    "estabelecimento": "151853598",
+                    "filial": "14122521",
+                    "data": "2026-04-02",
+                    "status": "ATIVO",
+                    "cnpj": "05419622000172",
+                    "bukrs": "4014",
+                    "cliente": "1064142",
+                    "data_inat": null,
+                    "SAP__Messages": []
+                }
+            ]
+        };
+
+        const jsonResponseVazio = {
+            "@odata.context": '$metadata#estabelecimento',
+            "@odata.metadataEtag": `W/"${timestamp}"`,
+            "value": []
+        };
+
+        //return response.status(400).json(['deu grosópi no getEstabelecimento']);
+        return response.status(200).json(jsonResponseVazio);
+        return response.status(200).json(jsonResponse);
+    };
+
+const testeRequestPost = (request, response) => {
+    const timestamp = new Date().toLocaleString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+        hour12: false
+    });
+
+    console.log(`[${timestamp}] CHAMOU POST COM PARÂMETROS: ${JSON.stringify(request.body)}`);
+
+    //return response.status(400).json([{ error: 'deu erro ao enviar split para o sap' }]);
+    //return response.status(400).json([{ error: 'deu erro ao enviar consolidado para o sap' }]);
+    //return response.status(400).json([{ error: 'deu erro cadastrar estabelecimento sap' }]);
+    return response.status(200).json({
+        body: request.body
+    });
+};
+
 module.exports =
 {
-    getConsultaCredito
+    getConsultaCredito,
+    getLimiteCredito,
+    getEstabelecimento,
+    testeRequestPost
 };

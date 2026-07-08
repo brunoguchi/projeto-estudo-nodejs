@@ -25,6 +25,7 @@ const lojaVlozController = require('./controllers/lojaVlozController');
 const stoneController = require('./controllers/stoneController');
 const vlozCoreController = require('./controllers/VlozCoreController');
 const sapController = require('./controllers/sapController');
+const pagbankController = require('./controllers/pagbankController');
 
 const router = express.Router();
 
@@ -143,6 +144,7 @@ router.get('/identity/v1/ExtratoVLoz', lojaVlozController.getCnpjs);
 
 // STONE
 router.post('/api/stone/resolve-challenge', stoneController.resolverChallengeComPEM);
+router.post('/api/stone/resolve-challenge/conciliacao', stoneController.resolverChallengeSenhaConciliacao);
 router.post('/auth/challenge', stoneController.obterTokenChallenge);
 router.get('/stone-accounts', stoneController.obterClienteStone);
 router.post('/stone-accounts', stoneController.cadastrarClienteStone);
@@ -152,7 +154,7 @@ router.post('/affiliates', stoneController.cadastrarAfiliados);
 router.get('/affiliates/details', stoneController.obterDetalhesAfiliados);
 router.post('/logistics/service-orders/install-terminal', stoneController.cadastrarTerminal);
 router.get('/logistics/service-orders', stoneController.obterOrdensServico);
-router.get('/v2/merchant/:cnpj/conciliation-file/:data', stoneController.obterArquivoConciliacaoXml);
+router.get('/v2/merchant/:stoneCode/conciliation-file/:data', stoneController.obterArquivoConciliacaoXml);
 router.post('/v2/merchant/consents', stoneController.pedidoConsentimentoConciliacao);
 router.post('/api/stone/webhook/conciliacao', stoneController.receberWebhookConciliacao);
 router.post('/auth/realms/payments/oauth/token', stoneController.obterTokenConciliacao);
@@ -163,5 +165,15 @@ router.get('/api/integracao/clientes-ativos', (req, res) => vlozCoreController.o
 
 //SAP
 router.get('/v1/vloz/credito/01/consulta*', sapController.getConsultaCredito);
+router.get('/v1/vloz/credito/limite*', sapController.getLimiteCredito);
+router.post('/v1/vloz/finance/contabil', sapController.testeRequestPost);
+router.get('/v1/vloz/estabelecimento/estabelecimento*', sapController.getEstabelecimento);
+router.post('/v1/vloz/estabelecimento/estabelecimento', sapController.testeRequestPost);
+
+// PAGBANK
+router.post('/accounts', pagbankController.cadastrarConta);
+router.get('/movement/v3.01/transactional/:date', pagbankController.listarMovimentosTransacionais);
+router.get('/movement/v3.01/financial/:date', pagbankController.listarMovimentosFinanceiros);
+router.get('/movement/v3.01/cashouts/:date', pagbankController.listarMovimentosCashouts);
 
 module.exports = router;

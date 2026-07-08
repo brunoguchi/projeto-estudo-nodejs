@@ -1,0 +1,67 @@
+[
+    {
+        "tipo_registro": "4",
+        "estabelecimento": "792136531",
+        "data_cashout": "2026-06-29",
+        "codigo_ur": "4193C4235F52486F9F5563958BC5FFC4",
+        "codigo_cashout": "28A3211BA1044B2A94E2088DB4588AFF",
+        "arranjo_pagamento": "CREDIT_MASTERCARD",
+        "valor_cashout": 126.38,
+        "tipo_cashout": "PagBank",
+        "cod_banco": "290",
+        "banco_agencia": "0001",
+        "conta_banco": "780170908"
+    },
+    {
+        "tipo_registro": "4",
+        "estabelecimento": "792136531",
+        "data_cashout": "2026-06-29",
+        "codigo_ur": "F3B135EDC1C6435292ABCEA9B6AE9B5B",
+        "codigo_cashout": "0AAF62704BA647BA90AE1136F1A184D3",
+        "arranjo_pagamento": "CREDIT_MASTERCARD",
+        "valor_cashout": 610.04,
+        "tipo_cashout": "Saldo Carteira",
+        "cod_banco": "290",
+        "banco_agencia": "0001",
+        "conta_banco": "782468276"
+    },
+    {
+        "tipo_registro": "4",
+        "estabelecimento": "792136531",
+        "data_cashout": "2026-06-29",
+        "codigo_ur": "65D857DA91724890AAC0CB8FE16A992D",
+        "codigo_cashout": "D6B26F41E8074DF0A275580ECCE20168",
+        "arranjo_pagamento": "DEBIT_ELO",
+        "valor_cashout": 19.80,
+        "tipo_cashout": "PagBank",
+        "cod_banco": "290",
+        "banco_agencia": "0001",
+        "conta_banco": "781841804"
+    },
+    {
+        "tipo_registro": "4",
+        "estabelecimento": "800844790",
+        "data_cashout": "2026-06-29",
+        "codigo_ur": "2DEABD1AFEB7437A9BC007A57C461CCB",
+        "codigo_cashout": "FB07DC44F809464687D818CDF9BF5662",
+        "arranjo_pagamento": "DEBIT_ELO",
+        "valor_cashout": 33.73,
+        "tipo_cashout": "PagBank",
+        "cod_banco": "290",
+        "banco_agencia": "0001",
+        "conta_banco": "794946723"
+    },
+    {
+        "tipo_registro": "4",
+        "estabelecimento": "792136531",
+        "data_cashout": "2026-06-29",
+        "codigo_ur": "6BF7D04BC84C42B79D75D21897D742B7",
+        "codigo_cashout": "F5B0A4842EC4489F863060B74AF06678",
+        "arranjo_pagamento": "DEBIT_VISA",
+        "valor_cashout": 9.80,
+        "tipo_cashout": "PagBank",
+        "cod_banco": "290",
+        "banco_agencia": "0001",
+        "conta_banco": "780205555"
+    }
+]
